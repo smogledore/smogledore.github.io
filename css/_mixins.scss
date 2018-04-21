@@ -1,0 +1,60 @@
+@mixin my-font($font-size: null, $line-height: null, $font-weight:null, $font-family:null, $color:null) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  color: $color;
+}
+@mixin my-pseudo($content: '', $display: block, $position: absolute) {
+  content: $content;
+  display: $display;
+  position: $position;
+}
+@mixin my-triangle($direction: "bottom", $color: #000, $size: 1rem) {
+  @if $direction == "top" {
+    border-top: none;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-bottom: $size solid $color;
+  }
+
+  @elseif $direction == "left" {
+    border-left: none;
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-right: $size solid $color;
+  }
+
+  @elseif $direction == "right" {
+    border-right: none;
+    border-top: $size solid transparent;
+    border-bottom: $size solid transparent;
+    border-left: $size solid $color;
+  }
+  @else {
+    border-bottom: none;
+    border-left: $size solid transparent;
+    border-right: $size solid transparent;
+    border-top: $size solid $color;
+  }
+}
+@mixin my-flexbox-grid($number:2, $gutter-x:0, $gutter-y:0) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -$gutter-x;
+  margin-top: -$gutter-y;
+
+  & > * {
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    @if $gutter-x == 0 {
+      width: calc(100% / #{$number});
+    }
+    @else {
+      width: calc((100% / #{$number}) - #{$gutter-x});
+    }
+    margin-left: $gutter-x;
+    margin-top: $gutter-y;
+  }
+}

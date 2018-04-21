@@ -1,1 +1,89 @@
-Hello World
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Artisan du digital, je conçois des designs intuitifs et attractifs pour des sites web et des applications mobiles.">
+  <title>Sébastien Moog . Webdesign et développement front-end</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="inner">
+      <div class="head">
+        <span class="logo"><img src="img/logo.svg" alt="Sébastien Moog" title="Sébastien Moog . Webdesign et développement front-end"></span>
+        <h1>Hello, je suis <strong>Sébastien Moog</strong>,<br />webdesigner et développeur front&#8209;end.</h1>
+        <h2>Artisan du digital, je conçois des designs intuitifs<br /> et attractifs pour des sites web et des applications mobiles.</h2>
+      </div>
+      <a href="#main" class="btn btn-large btn-primary js-scrollTo">Voir mes réalisations</a>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+    <div class="inner">
+      <section class="flex-grid-3">
+        <!-- Dribbble shots are loaded here -->
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <ul class="icons">
+      <li><a href="https://twitter.com/sebastienmoog" title="Twitter" target="_blank"><span>Twitter</span></a></li>
+      <li><a href="https://dribbble.com/sebastienmoog" title="Dribbble" target="_blank"><span>Dribbble</span></a></li>
+      <li><a href="mailto:hello@sebastienmoog.com" title="Mail"><span>Mail</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; 2017</li>
+      <li>Codé avec&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;et un clavier azerty.</li>
+    </ul>
+  <footer>
+    
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  
+  <script src="js/scripts.js"></script>
+    
+  <script src="js/jribbble.min.js"></script>
+  <script>
+    $.jribbble.setToken('c19d1838b19ef16ff777a51e33b7f6aaa79aba699afd10f82673baf717afdc1b');
+
+    $.jribbble.users('sebastienmoog').shots({per_page: 18}).then(function(shots) {
+      var html = [];
+
+      shots.forEach(function(shot) {
+        html.push('<a class="card-item" href="' + shot.html_url + '" target="_blank">');
+        html.push('<img src="' + shot.images.normal + '"></a>');
+      });
+
+      $('.flex-grid-3').html(html.join(''));
+    });
+    
+  </script>
+    
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-5270061-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+
+</html>
