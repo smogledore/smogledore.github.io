@@ -48,32 +48,39 @@
       <li><a href="mailto:hello@sebastienmoog.com" title="Mail"><span>Mail</span></a></li>
     </ul>
     <ul class="copyright">
-      <li>&copy; 2017</li>
+      <li>&copy; 2018</li>
       <li>Codé avec&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;et un clavier azerty.</li>
     </ul>
   <footer>
-    
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  
+
   <script src="js/scripts.js"></script>
-    
-  <script src="js/jribbble.min.js"></script>
+
   <script>
-    $.jribbble.setToken('c19d1838b19ef16ff777a51e33b7f6aaa79aba699afd10f82673baf717afdc1b');
+    // Set the Access Token
+    var accessToken = '0af5ba57fb12d245077f0bd9db11955bc114a7addb4ca523bbfd0e80befd32cb';
 
-    $.jribbble.users('sebastienmoog').shots({per_page: 18}).then(function(shots) {
-      var html = [];
-
-      shots.forEach(function(shot) {
-        html.push('<a class="card-item" href="' + shot.html_url + '" target="_blank">');
-        html.push('<img src="' + shot.images.normal + '"></a>');
-      });
-
-      $('.flex-grid-3').html(html.join(''));
+    // Call Dribble v2 API
+    $.ajax({
+        url: 'https://api.dribbble.com/v2/user/shots?access_token='+accessToken,
+        dataType: 'json',
+        type: 'GET',
+        success: function(data) {
+          if (data.length > 0) {
+            $.each(data.reverse(), function(i, val) {
+              $('.flex-grid-3').prepend(
+                '<a class="card-item" href="' + val.html_url + '" target="_blank" title="' + val.title + '"><img src="' + val.images.hidpi + '"></a>'
+                )
+            })
+          }
+          else {
+            $('.flex-grid-3').append('<p>No shots yet!</p>');
+          }
+        }
     });
-    
   </script>
-    
+
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
