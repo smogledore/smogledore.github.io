@@ -11,9 +11,8 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Artisan du digital, je conçois des designs intuitifs et attractifs pour des sites web et des applications mobiles.">
-  <title>Sébastien Moog . Webdesign et développement front-end</title>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <meta name="description" content="Crafting intuitive and attractive designs to solve existing problems">
+  <title>Sébastien Moog. UX/UI Designer — Front-end Developer</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -21,41 +20,29 @@
 
   <!-- Header -->
   <header>
-    <div class="inner">
-      <div class="head">
-        <span class="logo"><img src="img/logo.svg" alt="Sébastien Moog" title="Sébastien Moog . Webdesign et développement front-end"></span>
-        <h1>Hello, je suis <strong>Sébastien Moog</strong>,<br />webdesigner et développeur front&#8209;end.</h1>
-        <h2>Artisan du digital, je conçois des designs intuitifs<br /> et attractifs pour des sites web et des applications mobiles.</h2>
-      </div>
-      <a href="#main" class="btn btn-large btn-primary js-scrollTo">Voir mes réalisations</a>
-    </div>
+    <a href="#"><img src="img/logo.svg" alt="Sébastien Moog" title="Sébastien Moog. UX/UI Designer — Front-end Developer" class="header-logo"></a>
+    <a href="mailto:hello@sebastienmoog.com" class="link-contact" title="hello@sebastienmoog.com">Get in touch</a>
   </header>
 
   <!-- Main -->
   <main id="main">
-    <div class="inner">
-      <section class="flex-grid-3">
-        <!-- Dribbble shots are loaded here -->
-      </section>
-    </div>
+    <h1>Sébastien Moog<br />UX/UI Designer — Front-end Developer. Currently at Caldera</h1>
+    <h2>Crafting intuitive and attractive designs to solve existing problems</h2>
+    <section class="dribbble-shots">
+      <!-- Dribbble shots are loaded here -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <ul class="footer-icons">
+        <li><a href="https://twitter.com/sebastienmoog" title="Twitter" target="_blank"><span>Twitter</span></a></li>
+        <li><a href="https://dribbble.com/sebastienmoog" title="Dribbble" target="_blank"><span>Dribbble</span></a></li>
+        <li><a href="http://instagram.com/sebastienmoog" title="Instagram" target="_blank"><span>Instagram</span></a></li>
+      </ul>
+    <footer>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <ul class="icons">
-      <li><a href="https://twitter.com/sebastienmoog" title="Twitter" target="_blank"><span>Twitter</span></a></li>
-      <li><a href="https://dribbble.com/sebastienmoog" title="Dribbble" target="_blank"><span>Dribbble</span></a></li>
-      <li><a href="mailto:hello@sebastienmoog.com" title="Mail"><span>Mail</span></a></li>
-    </ul>
-    <ul class="copyright">
-      <li>&copy; 2018</li>
-      <li>Codé avec&nbsp;&nbsp;<i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;et un clavier azerty.</li>
-    </ul>
-  <footer>
-
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-  <script src="js/scripts.js"></script>
 
   <script>
     // Set the Access Token
@@ -69,13 +56,11 @@
         success: function(data) {
           if (data.length > 0) {
             $.each(data.reverse(), function(i, val) {
-              $('.flex-grid-3').prepend(
-                '<a class="card-item" href="' + val.html_url + '" target="_blank" title="' + val.title + '"><img src="' + val.images.hidpi + '"></a>'
-                )
-            })
+              $('.dribbble-shots').prepend('<a class="dribbble-shots-item" href="' + val.html_url + '" target="_blank" title="' + val.title + '"><img src="' + val.images.hidpi + '"></a>');
+            });
           }
           else {
-            $('.flex-grid-3').append('<p>No shots yet!</p>');
+            $('.dribbble-shots').append('<p>No shots yet!</p>');
           }
         }
     });
