@@ -313,6 +313,9 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  @media (max-width: 768px) {
+    body {
+      padding: 1.5rem; } }
 
 header {
   display: flex;
@@ -383,6 +386,7 @@ footer .footer-icons {
         margin-bottom: 1.5rem; } }
   @media (max-width: 768px) {
     footer .footer-icons {
-      display: block; } }
+      display: block;
+      margin: 5rem 0 3.5rem; } }
 
 /*# sourceMappingURL=styles.css.map */
