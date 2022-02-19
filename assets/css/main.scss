@@ -1,0 +1,143 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../../node_modules/bootstrap/scss/functions";
+
+// 2. Include Bootstrap variables and add any default variable overrides here
+@import "../../node_modules/bootstrap/scss/variables";
+
+$primary: $white;
+
+$theme-colors: map-merge($theme-colors, (
+    primary: $primary
+));
+
+$spacers: map-merge($spacers, (
+    6: ($spacer * 5),   // 80px
+    7: ($spacer * 7),   // 112px
+    8: ($spacer * 9),   // 144px
+    9: ($spacer * 11),  // 176px
+    10: ($spacer * 13), // 208px
+    11: ($spacer * 15)  // 240px
+));
+
+$body-bg:       $black;
+$body-color:    $white;
+
+$link-color:                $primary;
+$link-decoration:           none;
+$link-hover-color:          $gray-500;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// 4. Include any optional Bootstrap CSS as needed
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/helpers";
+
+// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+// 6. Add additional custom code here
+header {
+    @extend
+        .d-flex,
+        .justify-content-between,
+        .align-items-center,
+        .py-5;
+
+    .header-avatar {
+        width: 3.75rem;
+
+        &:hover {
+            opacity: .9;
+        }
+    }
+}
+
+main {
+    .baseline {
+        @extend .mt-10;
+
+        h1 {
+            @extend 
+                .h5,
+                .fw-normal;
+        }
+
+        h2 {
+            @extend 
+                .display-1,
+                .mt-6,
+                .mb-11;
+
+            font-weight: 600;
+        }
+    }
+
+     .dribbble-shots {
+        @extend .row;
+
+        &-item {
+            @extend 
+                .col-6,
+                .col-lg-4,
+                .mb-4;
+
+            img {
+                @extend
+                    .w-100,
+                    .rounded-2;
+            }
+        }
+    }
+}
+
+footer {
+    @extend 
+        .pt-8,
+        .pb-5;
+
+    ul {
+        @extend 
+            .list-unstyled, 
+            .d-flex,
+            .flex-column,
+            .flex-sm-row,
+            .mb-0;
+
+        li {
+            @extend 
+                .list-inline-item,
+                .me-5;
+        }
+    } 
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+a.link {
+    transform: translateX(.5rem);
+    transition: $transition-base;
+
+    &::before {
+        content: "";
+        display: inline-block;
+        width: .75rem;
+        height: .75rem;
+        background: url(../img/arrow-down-right.svg) no-repeat;
+        background-size: .75rem .75rem;
+        transform: translateX(-.5rem);
+        transition: $transition-base;
+    }
+
+    &:hover::before {
+        opacity: .5;
+    }
+}

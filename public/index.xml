@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sébastien Moog. Senior UX Designer</title>
+    <link>https://smogledore.github.io/</link>
+    <description>Recent content on Sébastien Moog. Senior UX Designer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jan 2022 22:04:48 +0100</lastBuildDate><atom:link href="https://smogledore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B</title>
+      <link>https://smogledore.github.io/portfolio/b/</link>
+      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      
+      <guid>https://smogledore.github.io/portfolio/b/</guid>
+      <description>This is the summary</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+baseURL = 'https://smogledore.github.io'
+languageCode = 'en-us'
+title = 'Sébastien Moog. Senior UX Designer'
+relativeURLs = true
