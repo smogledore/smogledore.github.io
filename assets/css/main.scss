@@ -61,7 +61,11 @@ header {
 
 main {
     .baseline {
-        @extend .mt-10;
+        @extend 
+            .mt-5,
+            .mt-sm-6,
+            .mt-md-7,
+            .mt-lg-8;
 
         h1 {
             @extend 
@@ -71,9 +75,13 @@ main {
 
         h2 {
             @extend 
-                .display-1,
-                .mt-6,
-                .mb-11;
+                .display-2,
+                .mt-4,
+                .mt-md-5,
+                .mb-6,
+                .mb-sm-7,
+                .mb-md-8,
+                .mb-lg-9;
 
             font-weight: 600;
         }
@@ -99,7 +107,10 @@ main {
 
 footer {
     @extend 
-        .pt-8,
+        .pt-5,
+        .pt-sm-6,
+        .pt-md-7,
+        .pt-lg-8,
         .pb-5;
 
     ul {
@@ -113,7 +124,9 @@ footer {
         li {
             @extend 
                 .list-inline-item,
-                .me-5;
+                .me-5,
+                .mb-2,
+                .mb-sm-0;
         }
     } 
 }
@@ -123,6 +136,7 @@ body {
 }
 
 a.link {
+    display: inline-block;
     transform: translateX(.5rem);
     transition: $transition-base;
 
@@ -134,7 +148,7 @@ a.link {
         background: url(../img/arrow-down-right.svg) no-repeat;
         background-size: .75rem .75rem;
         transform: translateX(-.5rem);
-        transition: $transition-base;
+        transition: $transition-fade;
     }
 
     &:hover::before {
