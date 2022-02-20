@@ -14,12 +14,13 @@
         <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-               
+            
+        <script src="./js/scrollReveal/scrollreveal.js"></script>   
     </head>
     <body>
         <div class="container">
             
-            <header>     
+            <header class="header">     
                 <a href="https://smogledore.github.io" g-component="MagneticComponent"><img src="./img/sebastien-moog.png" alt="Sébastien Moog" title="Sébastien Moog. Senior UX Designer" class="header-avatar"></a>
                 <a href="mailto:smogledore@gmail.com" class="link" title="smogledore@gmail.com" target="_blank">Get in touch</a>
             </header>
@@ -63,7 +64,7 @@
             </main>
 
             
-            <footer>
+            <footer class="footer">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/sebastienmoog/" title="LinkedIn" target="_blank" class="link"><span>LinkedIn</span></a></li>
                     <li><a href="https://twitter.com/sebastienmoog" title="Twitter" target="_blank" class="link"><span>Twitter</span></a></li>
@@ -72,11 +73,23 @@
                   </ul>
             </footer>
 
-            
-            <script src='./js/magnetic/Component.js'></script>
-            <script src='./js/magnetic/loadComponents.js'></script>
-            <script src='./js/magnetic/index.js'></script>
-            <script src="./js/magnetic/script.js"></script>
-          </div>
+        </div>
+
+        
+        <script src='./js/magnetic/Component.js'></script>
+        <script src='./js/magnetic/loadComponents.js'></script>
+        <script src='./js/magnetic/index.js'></script>
+        <script src="./js/magnetic/script.js"></script>
+
+        
+        <script>
+            var slideUp = {
+                distance: '10rem',
+                origin: 'bottom',
+                opacity: null
+            };
+
+            ScrollReveal().reveal('.dribbble-shots-item', slideUp);
+        </script>
     </body>
 </html>
