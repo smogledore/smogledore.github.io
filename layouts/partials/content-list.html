@@ -1,15 +1,14 @@
 
-<!-- COMMENT FOR PORTFOLIO WORK
 <div class="row">
      {{ range .Pages }}
      <div class="col-4">
           <div style="border: 1px solid white; margin-bottom:10px">
                <div style="font-size:20px;">
-                    <a href="{{.Permalink}}">{{.Title}}</a>
+                    <a href="{{.RelPermalink}}">{{.Title}}</a>
                </div>
                <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
                <p style="font-size:18px;">{{.Summary}}</p>
           </div>
      </div>
      {{ end }}
-</div> -->
+</div>
