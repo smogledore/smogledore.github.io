@@ -87,7 +87,15 @@ main {
         }
     }
 
-     .dribbble-shots {
+    .portfolio {
+        @extend 
+                .mb-6,
+                .mb-sm-7,
+                .mb-md-8,
+                .mb-lg-9;
+    }
+
+    .dribbble-shots {
         @extend .row;
 
         &-item {

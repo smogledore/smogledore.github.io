@@ -2161,7 +2161,7 @@ progress {
 .mb-5 {
   margin-bottom: 3rem !important; }
 
-.mb-6, main .baseline h2, main .baseline .h2 {
+.mb-6, main .portfolio, main .baseline h2, main .baseline .h2 {
   margin-bottom: 5rem !important; }
 
 .mb-7 {
@@ -3093,7 +3093,7 @@ progress {
     margin-bottom: 3rem !important; }
   .mb-sm-6 {
     margin-bottom: 5rem !important; }
-  .mb-sm-7, main .baseline h2, main .baseline .h2 {
+  .mb-sm-7, main .portfolio, main .baseline h2, main .baseline .h2 {
     margin-bottom: 7rem !important; }
   .mb-sm-8 {
     margin-bottom: 9rem !important; }
@@ -3639,7 +3639,7 @@ progress {
     margin-bottom: 5rem !important; }
   .mb-md-7 {
     margin-bottom: 7rem !important; }
-  .mb-md-8, main .baseline h2, main .baseline .h2 {
+  .mb-md-8, main .portfolio, main .baseline h2, main .baseline .h2 {
     margin-bottom: 9rem !important; }
   .mb-md-9 {
     margin-bottom: 11rem !important; }
@@ -4185,7 +4185,7 @@ progress {
     margin-bottom: 7rem !important; }
   .mb-lg-8 {
     margin-bottom: 9rem !important; }
-  .mb-lg-9, main .baseline h2, main .baseline .h2 {
+  .mb-lg-9, main .portfolio, main .baseline h2, main .baseline .h2 {
     margin-bottom: 11rem !important; }
   .mb-lg-10 {
     margin-bottom: 13rem !important; }

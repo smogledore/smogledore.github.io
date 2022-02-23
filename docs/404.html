@@ -14,7 +14,15 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
             
-        <script src="./js/scrollReveal/scrollreveal.js"></script>   
+        <script src="./js/scrollReveal/scrollreveal.js"></script> 
+        
+        <script>
+            var slideUp = {
+                distance: '10rem',
+                origin: 'bottom',
+                opacity: null
+            };
+        </script>  
     </head>
     <body>
         <div class="container">
@@ -55,13 +63,7 @@
 
         
         <script>
-            var slideUp = {
-                distance: '10rem',
-                origin: 'bottom',
-                opacity: null
-            };
-
-            ScrollReveal().reveal('.dribbble-shots-item', slideUp);
+           ScrollReveal().reveal('.dribbble-shots-item', slideUp);
         </script>
     </body>
 </html>
