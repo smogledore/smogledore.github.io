@@ -4,11 +4,8 @@
 // 2. Include Bootstrap variables and add any default variable overrides here
 @import "../../node_modules/bootstrap/scss/variables";
 
-$primary: $white;
-
-$theme-colors: map-merge($theme-colors, (
-    primary: $primary
-));
+$primary:   $white;
+$secondary: $gray-900;
 
 $spacers: map-merge($spacers, (
     6: ($spacer * 5),   // 80px
@@ -19,12 +16,12 @@ $spacers: map-merge($spacers, (
     11: ($spacer * 15)  // 240px
 ));
 
-$body-bg:       $black;
+$body-bg:       #191919;
 $body-color:    $white;
 
-$link-color:                $primary;
+$link-color:                $gray-500;
 $link-decoration:           none;
-$link-hover-color:          $gray-500;
+$link-hover-color:          $primary;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../../node_modules/bootstrap/scss/mixins";
@@ -43,72 +40,226 @@ $link-hover-color:          $gray-500;
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 6. Add additional custom code here
-header {
+
+.header {
     @extend
         .d-flex,
         .justify-content-between,
         .align-items-center,
         .py-5;
 
-    .header-avatar {
+    &-avatar {
         width: 3.75rem;
 
         &:hover {
             opacity: .9;
         }
     }
+
+    &-link {
+        @extend .ms-3;
+
+        &-is_current {
+            color: $body-color;
+        }
+    }
 }
 
-main {
+main.home {
     .baseline {
         @extend 
-            .mt-5,
-            .mt-sm-6,
-            .mt-md-7,
-            .mt-lg-8;
+            .my-4,
+            .my-sm-5,
+            .my-md-6,
+            .my-lg-7,
+            .mb-5,
+            .mb-sm-6,
+            .mb-md-7,
+            .mb-lg-8;
 
         h1 {
             @extend 
+                .mb-4,
                 .h5,
                 .fw-normal;
         }
 
         h2 {
-            @extend 
-                .display-2,
-                .mt-4,
+            @extend .display-2;
+
+            font-weight: 600;
+
+            /*
+.mt-4,
                 .mt-md-5,
                 .mb-6,
                 .mb-sm-7,
                 .mb-md-8,
-                .mb-lg-9;
+                .mb-lg-9
 
-            font-weight: 600;
+            */
+        }
+
+        .sm-button {
+            @extend
+                .px-3,
+                .py-2;
+    
+            color: $body-color;
+            border-radius: .5rem;
+            border: 1px solid transparent;
+            background: linear-gradient($body-bg, $body-bg) padding-box, linear-gradient(45deg, #5E9BCA, #EB8D00) border-box;
+            
+            &:hover {
+                background: linear-gradient(45deg, #5E9BCA, #EB8D00) border-box;  
+            }
         }
     }
 
     .portfolio {
         @extend 
-                .mb-6,
-                .mb-sm-7,
-                .mb-md-8,
-                .mb-lg-9;
+            .row,
+            .mb-3,
+            .mb-sm-4,
+            .mb-md-5,
+            .mb-lg-6;
+
+        &-item {
+            @extend 
+                .col-12,
+                .col-md-6;
+
+            &-content {
+                @extend 
+                    .d-inline-block,
+                    .mb-6;
+
+                    
+
+                img {
+                    @extend
+                        .w-100,
+                        .mb-3;
+                }
+
+                h4 {
+                    @extend .h5;
+                    // @extend .text-uppercase;
+// font-size:1rem;
+// letter-spacing: .1rem;
+margin-top: .5rem;
+                    color: $gray-600;
+
+                    font-weight: 400;
+                }
+
+                h3 {
+                    @extend .h2;
+
+                    // color: $white;
+                }
+
+                a {
+                    @extend .h1;
+                    
+                }
+
+                &:hover {
+
+                    h3 {
+                        
+                       
+                    }
+                    h4 {
+                        color: $gray-500;
+                    }
+                }
+            }
+        }
     }
 
     .dribbble-shots {
         @extend .row;
 
-        &-item {
+        h5 {
             @extend 
+                .h4,
+                .mb-5;
+        }
+
+        &-item {
+            @extend
                 .col-6,
                 .col-lg-4,
                 .mb-4;
 
             img {
-                @extend
-                    .w-100,
-                    .rounded-2;
+                @extend .w-100;
             }
+        }
+    }
+}
+
+main.list {
+    @extend 
+        main.home,
+        .mt-2,
+        .mb-0;
+
+}
+
+main.single {
+    h1 {
+        @extend 
+            .display-3,
+            .mt-6,
+            .mb-4; 
+        
+        font-weight: 600;
+    }
+
+    h2 {
+        @extend 
+            .mb-5; 
+        
+        font-weight: 600;
+    }
+
+    h3 {
+        @extend 
+            .mb-5; 
+        
+        font-weight: 600;
+    }
+
+    h5 {
+        @extend 
+            .mb-7,
+            .text-secondary; 
+        
+        font-weight: 400;
+    }
+
+    section {
+        @extend .mb-6;
+    }
+
+    .sm {
+        &-card {
+            @extend 
+                .bg-dark,
+                .p-4,
+                .rounded-3;
+
+            &-title {
+                @extend 
+                    .text-secondary,
+                    .text-uppercase;
+            }
+        }
+
+        &-img {
+            @extend .w-100;
         }
     }
 }
@@ -125,16 +276,61 @@ footer {
         @extend 
             .list-unstyled, 
             .d-flex,
-            .flex-column,
-            .flex-sm-row,
             .mb-0;
 
         li {
             @extend 
                 .list-inline-item,
-                .me-5,
-                .mb-2,
-                .mb-sm-0;
+                .me-4,
+                .me-md-5,
+                .mb-0;
+
+            a {
+                $size-icon: 1.5rem;
+                display: inline-block;
+                width: $size-icon;
+                height: $size-icon;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: $size-icon $size-icon;
+                cursor: pointer;
+
+                &[title="LinkedIn"] {
+                    background-image: url("../img/social-icons/linkedin.svg");
+
+                    &:hover {
+                        background-image: url("../img/social-icons/linkedin-hover.svg");
+                    }
+                }
+
+                &[title="Twitter"] {
+                    background-image: url("../img/social-icons/twitter.svg");
+
+                    &:hover {
+                        background-image: url("../img/social-icons/twitter-hover.svg");
+                    }
+                }
+
+                &[title="Dribbble"] {
+                    background-image: url("../img/social-icons/dribbble.svg");
+
+                    &:hover {
+                        background-image: url("../img/social-icons/dribbble-hover.svg");
+                    }
+                }
+
+                &[title="Instagram"] {
+                    background-image: url("../img/social-icons/instagram.svg");
+
+                    &:hover {
+                        background-image: url("../img/social-icons/instagram-hover.svg");
+                    }
+                }
+
+                span {
+                    display: none;
+                  }
+            }
         }
     } 
 }
@@ -143,23 +339,30 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-a.link {
-    display: inline-block;
-    transform: translateX(.5rem);
-    transition: $transition-base;
+// Staticrypt login prompt customization
 
-    &::before {
-        content: "";
-        display: inline-block;
-        width: .75rem;
-        height: .75rem;
-        background: url(../img/arrow-down-right.svg) no-repeat;
-        background-size: .75rem .75rem;
-        transform: translateX(-.5rem);
-        transition: $transition-fade;
+.staticrypt {
+    &-title,
+    &-remember-label {
+        color: #000;
     }
 
-    &:hover::before {
-        opacity: .5;
+    &-hr {
+        opacity: 1;
+    }
+
+    &-form .staticrypt-decrypt-button,
+    &-body {
+        background: #000;
+    }
+
+    &-form .staticrypt-decrypt-button:hover, 
+    &-form .staticrypt-decrypt-button:active, 
+    &-form .staticrypt-decrypt-button:focus {
+        background: #343a40;
+    }
+
+    &-footer {
+        display: none;
     }
 }

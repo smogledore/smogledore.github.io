@@ -1,5 +1,7 @@
 {{ define "main" }}
-    <h1>{{.Title}}</h1>
-    <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
-    <div style="font-size:18px;">{{ .Content }}</div>
+    <main class="single">
+        <h1>{{.Title}}</h1>
+        <h5>{{ .Params.Subtitle }}</h5>
+        {{ .Content }}
+    </main>
 {{ end }}

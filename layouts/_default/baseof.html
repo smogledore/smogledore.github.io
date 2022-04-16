@@ -29,13 +29,14 @@
             <!-- Header -->
             <header class="header">     
                 <a href="{{ .Site.BaseURL }}" g-component="MagneticComponent"><img src="{{ $avatar.RelPermalink }}" alt="Sébastien Moog" title="Sébastien Moog. Senior UX Designer" class="header-avatar"></a>
-                <a href="mailto:smogledore@gmail.com" class="link" title="smogledore@gmail.com" target="_blank">Get in touch</a>
+                <nav>
+                    <a href="{{ .Site.BaseURL }}" class="header-link{{ if .IsHome }} header-link-is_current{{ end }}">Selected works</a>
+                    <a href="{{ .Site.BaseURL }}/about" class="header-link{{ if eq .Title `About` }} header-link-is_current{{ end }}">About</a>
+                </nav>
             </header>
 
             <!-- Main -->
-            <main>
-                {{ block "main" . }}{{end}}
-            </main>
+            {{ block "main" . }}{{end}}
 
             <!-- Footer -->
             <footer class="footer">
@@ -58,6 +59,7 @@
         <!-- JS for Scroll Reveal animations -->
         <script>
            ScrollReveal().reveal('.dribbble-shots-item', slideUp);
+           ScrollReveal().reveal('.sm-img', slideUp);
         </script>
     </body>
 </html>

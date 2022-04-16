@@ -1,16 +1,17 @@
-<!-- 
-<div class="row portfolio">
+
+<div class="portfolio">
      {{ range .Pages }}
-     <div class="col-6">
-          <div class="portfolio-item" style="border: 1px solid white; margin-bottom:10px">
-               <a href="{{.RelPermalink}}" class="h2">{{.Title}}</a>
-               <p style="font-size:18px;">{{.Summary}}</p>
-          </div>
+     <div class="portfolio-item">
+          <a href="{{ .RelPermalink }}" class="portfolio-item-content">
+               <img src="{{ .Params.Thumbnail }}" />
+               <h4>{{ .Params.Product }}</h4>
+               <h3>{{.Title}}</h3>
+          </a>
      </div>
      {{ end }}
-</div> -->
+</div>
 
 <!-- JS for Scroll Reveal animations -->
-<!-- <script>
+<script>
      ScrollReveal().reveal('.portfolio-item', slideUp);
-</script> -->
+</script>

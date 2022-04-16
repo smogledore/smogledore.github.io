@@ -5,51 +5,14 @@
     <link>https://smogledore.github.io/</link>
     <description>Recent content on Sébastien Moog. Senior UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jan 2022 22:04:48 +0100</lastBuildDate><atom:link href="https://smogledore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://smogledore.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>B</title>
-      <link>https://smogledore.github.io/portfolio/b/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      <title>About</title>
+      <link>https://smogledore.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://smogledore.github.io/portfolio/b/</guid>
-      <description>This is the summary</description>
-    </item>
-    
-    <item>
-      <title>C</title>
-      <link>https://smogledore.github.io/portfolio/c/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
-      
-      <guid>https://smogledore.github.io/portfolio/c/</guid>
-      <description>This is the summary</description>
-    </item>
-    
-    <item>
-      <title>D</title>
-      <link>https://smogledore.github.io/portfolio/d/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
-      
-      <guid>https://smogledore.github.io/portfolio/d/</guid>
-      <description>This is the summary</description>
-    </item>
-    
-    <item>
-      <title>E</title>
-      <link>https://smogledore.github.io/portfolio/e/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
-      
-      <guid>https://smogledore.github.io/portfolio/e/</guid>
-      <description>This is the summary</description>
-    </item>
-    
-    <item>
-      <title>F</title>
-      <link>https://smogledore.github.io/portfolio/f/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
-      
-      <guid>https://smogledore.github.io/portfolio/f/</guid>
-      <description>This is the summary</description>
+      <guid>https://smogledore.github.io/about/</guid>
+      <description>Hello I&amp;rsquo;m Seb</description>
     </item>
     
   </channel>

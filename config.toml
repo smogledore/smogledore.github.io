@@ -3,3 +3,5 @@ languageCode = 'en-us'
 title = 'Sébastien Moog. Senior UX Designer'
 relativeURLs = true
 publishDir = "docs"
+[markup.goldmark.renderer]
+unsafe = true

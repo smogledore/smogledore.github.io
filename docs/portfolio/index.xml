@@ -6,50 +6,50 @@
     <description>Recent content in Portfolios on Sébastien Moog. Senior UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jan 2022 22:04:48 +0100</lastBuildDate><atom:link href="https://smogledore.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smogledore.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>B</title>
-      <link>https://smogledore.github.io/portfolio/b/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      <title>This is the title of meeting grid</title>
+      <link>https://smogledore.github.io/portfolio/meeting-grid/</link>
+      <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://smogledore.github.io/portfolio/b/</guid>
-      <description>This is the summary</description>
+      <guid>https://smogledore.github.io/portfolio/meeting-grid/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>C</title>
-      <link>https://smogledore.github.io/portfolio/c/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      <title>Humanizing the meeting experience</title>
+      <link>https://smogledore.github.io/portfolio/humanize-meetings/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://smogledore.github.io/portfolio/c/</guid>
-      <description>This is the summary</description>
+      <guid>https://smogledore.github.io/portfolio/humanize-meetings/</guid>
+      <description>fsdfs</description>
     </item>
     
     <item>
-      <title>D</title>
-      <link>https://smogledore.github.io/portfolio/d/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      <title>Target a new market with a dedicated product</title>
+      <link>https://smogledore.github.io/portfolio/caldera-textile/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://smogledore.github.io/portfolio/d/</guid>
-      <description>This is the summary</description>
+      <guid>https://smogledore.github.io/portfolio/caldera-textile/</guid>
+      <description>Problem statement After twenty years of growth, the inkjet printing market has now reached maturity and is only showing annual growth between 2 and 5%. Caldera must renew itself, and decides to target the emerging textile printing market. The CalderaRIP application already has useful functionalities for textile printing, but these are lost in a complex interface offering a wide range of actions intended to cover the needs of different types of users.</description>
     </item>
     
     <item>
-      <title>E</title>
-      <link>https://smogledore.github.io/portfolio/e/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      <title>Bring new features outside of an end-of-life product</title>
+      <link>https://smogledore.github.io/portfolio/caldera-jobs/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://smogledore.github.io/portfolio/e/</guid>
-      <description>This is the summary</description>
+      <guid>https://smogledore.github.io/portfolio/caldera-jobs/</guid>
+      <description>Problem statement The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment. Having to sometimes manage thousands of jobs, its performance is reduced in this case to the detriment of the user experience. In addition, it is no longer scalable due to the aging of its technology, which slows innovation: implementing a new feature consumes considerable time, which is not realistic in the company’s strategy.</description>
     </item>
     
     <item>
-      <title>F</title>
-      <link>https://smogledore.github.io/portfolio/f/</link>
-      <pubDate>Mon, 24 Jan 2022 22:04:48 +0100</pubDate>
+      <title>Handling transition to a new technology</title>
+      <link>https://smogledore.github.io/portfolio/caldera-dock/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://smogledore.github.io/portfolio/f/</guid>
-      <description>This is the summary</description>
+      <guid>https://smogledore.github.io/portfolio/caldera-dock/</guid>
+      <description>Problem statement Developed since 2003, CalderaRIP uses an aging technology which will soon no longer be supported by all operating systems. In addition, this technology is not scalable, the new features take a considerable time to be implemented, which represents a risk of missing the time to market against our competitors. There is therefore a real need for transition to a more modern technology, in order to guarantee the software lifetime and the speed of iterations.</description>
     </item>
     
   </channel>
