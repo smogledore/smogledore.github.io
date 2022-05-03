@@ -2,7 +2,7 @@
 title: "Reduce meeting fatigue by providing a more human experience"
 subtitle: "March 2021 - GoTo Meeting Web & Desktop"
 date: 2022-01-21
-draft: true
+draft: false
 product: "GoTo Meeting"
 thumbnail: "/img/humanize-meetings/humanize-meetings-thumbnail.png"
 ---
@@ -23,6 +23,8 @@ While there is no doubt that technology has greatly supported remote collaborati
 Since then, the topic has been widely covered in the media, with the term counting over 700,000 hits on Google by the end of 2020.
 
 Additionally, maintaining human contact between colleagues is even more challenging in this new environment where work has radically changed and anxiety about social interactions is amplified. To preserve the well-being of its users, and also stay competitive as the adoption of video conferencing apps increases, GoTo Meeting must offer a solution that will reduce meeting fatigue.
+
+<p class="text-danger">On a noté une baisse des scores CES, mais pas de feedback specifique concernant la meeting fatigue dans les verbatims associés, bien que le sujet était sous les projecteurs à ce moment. Product Mangement a donné de la ressource afin d'améliorer l'experience sans forcément répondre à une problématique recuiellie auprès de nos utilsiateurs</p>
 
 </div>
 
@@ -57,6 +59,8 @@ Another important learning was that meeting fatigue can also have serious conseq
 
 <img src="/img/humanize-meetings/meeting-fatigue-discovery.png" class="sm-img mt-4">
 
+<p class="sm-caption">Discovery board about Meeting Fatigue</p>
+
 </section>
 
 <section>
@@ -66,6 +70,8 @@ Another important learning was that meeting fatigue can also have serious conseq
 Based on the learnings from the discovery phase, we brainstormed and generated as many ideas as possible to answer the question “How might we reduce meeting fatigue?”. All items were sorted around different clusters for better visibility and decisions making, with "Group belongingness" being the most interesting to the group.
 
 <img src="/img/humanize-meetings/how-might-we-reduce-meeting-fatigue.png" class="sm-img mt-4">
+
+<p class="sm-caption">Ideation board</p>
 
 </section>
 
@@ -105,26 +111,83 @@ Therefore, to reduce the amount of stimuli on screen, users would need to have t
 
 #### Explorations
 
-<img src="/img/humanize-meetings/hide-self-view-explorations.png" class="sm-img mt-4 mb-5">
+This new feature has an impact on the camera layout, so it makes sense to place it in the existing View Switch menu, which includes similar options such as not showing inactive cameras in the layout. The menu is slowly getting crowded as more layout options are added along the way, so I explored a few possibilities for potential reorganization of the interface architecture.
+
+<img src="/img/humanize-meetings/hide-self-view-explorations.png" class="sm-img mt-4">
+
+<p class="sm-caption mb-5">Entry point explorations</p>
 
 #### Delivery
+
+For a better ease of use, we opted for a solution grouping all the menu items at the first level, the medium/long term goal will be to migrate all the layout options into a dedicated settings window. As there was a low complexity for this first increment, the implementation didn’t require much supervision after I delivered specifications and presented the feature to the engineering team during a refinement session.
 
 <img src="/img/humanize-meetings/hide-self-view-specifications.png" class="sm-img mt-4">
 
+<p class="sm-caption mb-3">Hide Self-View specifications</p>
+
 <img src="/img/humanize-meetings/hide-self-view-mockup.png" class="sm-img mt-4">
+
+<p class="sm-caption mb-5">Hide Self-View in the View-Switch</p>
 
 </section>
 
+<div class="row mb-4">
+
+<div class="col-7">
 
 ### 2. Reactions
 
+People working remotely from home feel more isolated. It’s more difficult to maintain meaningful connections with others in this new way of working which brings its own problematics. There’s a belief that 15% of someone’s communication is done verbally and the remaining 85% of the message is sent through body language. This non-verbal part is partially conveyed during video calls, so people may have a harder time following conversations, even more when cameras remain off. Moreover, it is sometimes not easy for participants to know when it‘s their turn to talk, which can bring confusion and noise in their session when they speak at the same time as others or cut each other off. 
+
+Based on the learnings we had during the discovery phase, emoji reactions stood out as the most appropriate solution to keep participants engaged, reducing effortful attention and meeting fatigue. Reactions provide a quick way to showcase emotions without having to speak during a meeting, with emojis having become a common way of reacting thanks to instant messaging platforms. They also help to speed up and fluidify communication in meetings, as the speaker isn’t interrupted.
+
+</div>
+
+<div class="col-1">&nbsp;</div>
+
+<div class="col-4 d-flex align-items-center">
+
+<div class="sm-card">
+
+<p class="sm-card-title">Jobs To Be Done</p>
+
+#### When I’m in a meeting, I want to communicate with others with my microphone and/or camera turned off so I can be engaged with less effort.
+
+</div>
+
+</div>
+
+</div>
+
+#### Entry point
+
+<div class="mb-5">One of our design principles is to let users shine. Meetings are their time in the spotlight, so we want to make the interface as non-intrusive as possible. We usually try to reuse existing elements as new entry points to keep a light visual, so the existing Hand Raise button was our best candidate, as it’s also a way to react. A split button variant of the button component was available in our design system, so we used it to provide an emoji selection in a reaction popup. We also synced with the mobile team to check how this entry point might work on other devices.</div>
+
 #### Research
 
-Lorem
+This potential solution requiring a significant effort to be implemented, we decided to conduct some user testing to validate the interest and benefits of such a feature. We also wanted to check discoverability with the selected entry-point and get insights about the considered set of emojis. For this, we did some A/B testing by creating 2 variants of prototypes, with different icons in the react button and a different representation of the reactions feed. 
+ 
+I participated in all parts of the research: writing a test scenario, creating prototypes, watching the recordings of the sessions, summarizing and presenting the results to product managers, engineers and stakeholders involved in the initiative.  
+ 
+The scenario was based on various questions, we asked testers: to complete the task of sending a quick emoji reaction to show they agree with the current speaker, to give feedback on how reactions are displayed on screen when they present content to the audience, to tell us which emojis they would use most frequently in their online meetings and to rate how much useful reactions would be helpful for them…
+
+<img src="/img/humanize-meetings/reactions-prototype.png" class="sm-img mt-4">
+
+<p class="sm-caption mb-3">Prototype built in Figma</p>
+
+<img src="/img/humanize-meetings/reactions-research.png" class="sm-img mt-4">
+
+<p class="sm-caption mb-5">Research results</p>
 
 #### Delivery
 
-Lorem
+<img src="/img/humanize-meetings/reactions-popup-specifications.png" class="sm-img mt-4">
+
+<p class="sm-caption mb-3">Reactions popup specifications</p>
+
+<img src="/img/humanize-meetings/reactions-feed-specifications.png" class="sm-img mt-4">
+
+<p class="sm-caption mb-5">Reactions feed specifications</p>
 
 </section>
 

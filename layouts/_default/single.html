@@ -4,4 +4,14 @@
         <h5>{{ .Params.Subtitle }}</h5>
         {{ .Content }}
     </main>
+
+    <script src="/js/lightense/lightense.min.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            Lightense('img:not(.no-lightense)', {
+                background: 'rgba(0,0,0,0.5)'
+            });
+        }, false);
+    </script>
+
 {{ end }}

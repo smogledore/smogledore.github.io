@@ -1,7 +1,7 @@
 ---
 title: "Handling transition to a new technology"
 date: 2022-01-18
-draft: true
+draft: false
 product: "Caldera Dock"
 thumbnail: "/img/caldera-dock/caldera-dock-thumbnail.png"
 ---

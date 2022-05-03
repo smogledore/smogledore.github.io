@@ -99,21 +99,6 @@ main.home {
 
             */
         }
-
-        .sm-button {
-            @extend
-                .px-3,
-                .py-2;
-    
-            color: $body-color;
-            border-radius: .5rem;
-            border: 1px solid transparent;
-            background: linear-gradient($body-bg, $body-bg) padding-box, linear-gradient(45deg, #5E9BCA, #EB8D00) border-box;
-            
-            &:hover {
-                background: linear-gradient(45deg, #5E9BCA, #EB8D00) border-box;  
-            }
-        }
     }
 
     .portfolio {
@@ -132,9 +117,7 @@ main.home {
             &-content {
                 @extend 
                     .d-inline-block,
-                    .mb-6;
-
-                    
+                    .mb-6;           
 
                 img {
                     @extend
@@ -143,11 +126,10 @@ main.home {
                 }
 
                 h4 {
-                    @extend .h5;
-                    // @extend .text-uppercase;
-// font-size:1rem;
-// letter-spacing: .1rem;
-margin-top: .5rem;
+                    @extend 
+                        .h5,
+                        .mt-2;
+                    
                     color: $gray-600;
 
                     font-weight: 400;
@@ -155,21 +137,13 @@ margin-top: .5rem;
 
                 h3 {
                     @extend .h2;
-
-                    // color: $white;
                 }
 
                 a {
-                    @extend .h1;
-                    
+                    @extend .h1;    
                 }
 
                 &:hover {
-
-                    h3 {
-                        
-                       
-                    }
                     h4 {
                         color: $gray-500;
                     }
@@ -219,25 +193,30 @@ main.single {
     }
 
     h2 {
-        @extend 
-            .mb-5; 
+        @extend .mb-5; 
         
         font-weight: 600;
     }
 
     h3 {
-        @extend 
-            .mb-5; 
+        @extend .mb-5; 
+        
+        font-weight: 600;
+    }
+
+    h4 {
+        @extend .mb-4; 
         
         font-weight: 600;
     }
 
     h5 {
         @extend 
+            .h4,
             .mb-7,
             .text-secondary; 
-        
-        font-weight: 400;
+
+            font-weight: 600;
     }
 
     section {
@@ -252,14 +231,32 @@ main.single {
                 .rounded-3;
 
             &-title {
-                @extend 
-                    .text-secondary,
-                    .text-uppercase;
+                @extend
+                .text-secondary,
+                .mb-2,
+                .text-secondary;
+
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+
+            h4 {
+                @extend .mb-0;
             }
         }
 
         &-img {
             @extend .w-100;
+        }
+
+        &-caption {
+            @extend
+                .mt-2, 
+                .small,
+                .text-secondary,
+                .text-uppercase,
+                .text-center,
+                .font-monospace;
         }
     }
 }
@@ -337,6 +334,21 @@ footer {
 
 body {
     -webkit-font-smoothing: antialiased;
+}
+
+.sm-button {
+    @extend
+        .px-3,
+        .py-2;
+
+    color: $body-color;
+    border-radius: .5rem;
+    border: 1px solid transparent;
+    background: linear-gradient($body-bg, $body-bg) padding-box, linear-gradient(45deg, #5E9BCA, #EB8D00) border-box;
+    
+    &:hover {
+        background: linear-gradient(45deg, #5E9BCA, #EB8D00) border-box;  
+    }
 }
 
 // Staticrypt login prompt customization

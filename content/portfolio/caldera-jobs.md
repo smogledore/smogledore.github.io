@@ -1,7 +1,7 @@
 ---
 title: "Bring new features outside of an end-of-life product"
 date: 2022-01-19
-draft: true
+draft: false
 product: "Caldera Jobs"
 thumbnail: "/img/caldera-jobs/caldera-jobs-thumbnail.png"
 ---
