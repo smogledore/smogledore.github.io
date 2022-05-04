@@ -7,13 +7,13 @@ product: "GoTo Meeting"
 thumbnail: "/img/humanize-meetings/humanize-meetings-thumbnail.png"
 ---
 
-<img src="/img/humanize-meetings/humanize-meetings-thumbnail.png" class="sm-img mb-6">
+<img src="/img/humanize-meetings/humanize-meetings-thumbnail.png" class="sm-img mb-6" alt="Meeting Reactions">
 
 <section>
 
 <div class="row">
 
-<div class="col-7">
+<div class="col-12 col-lg-7">
 
 ## Problem statement
 
@@ -22,15 +22,13 @@ With the COVID-19 health pandemic spreading around the world, many employees tra
 While there is no doubt that technology has greatly supported remote collaboration during these moments of isolation, the sudden shift led workers to start reporting meeting fatigue, a new phenomenon of feeling tired and exhausted attributed to an excessive usage of online meetings.
 Since then, the topic has been widely covered in the media, with the term counting over 700,000 hits on Google by the end of 2020.
 
-Additionally, maintaining human contact between colleagues is even more challenging in this new environment where work has radically changed and anxiety about social interactions is amplified. To preserve the well-being of its users, and also stay competitive as the adoption of video conferencing apps increases, GoTo Meeting must offer a solution that will reduce meeting fatigue.
-
-<p class="text-danger">On a noté une baisse des scores CES, mais pas de feedback specifique concernant la meeting fatigue dans les verbatims associés, bien que le sujet était sous les projecteurs à ce moment. Product Mangement a donné de la ressource afin d'améliorer l'experience sans forcément répondre à une problématique recuiellie auprès de nos utilsiateurs</p>
+Additionally, maintaining human contact between colleagues is even more challenging in this new environment where work has radically changed and anxiety about social interactions is amplified. A drop in CES scores was noticed in GoTo Meeting, with some feedback indicating that users were tired of the time spent in video calls. Product Management wanted to address the issue and allocated bandwidth to reduce meeting fatigue and preserve the well-being of our users.
 
 </div>
 
-<div class="col-1">&nbsp;</div>
+<div class="col-md-1">&nbsp;</div>
 
-<div class="col-4 d-flex align-items-center">
+<div class="col-12 col-lg-4 d-flex align-items-center">
 
 <div class="sm-card">
 
@@ -38,7 +36,7 @@ Additionally, maintaining human contact between colleagues is even more challeng
 
 In a team with 2 UX designers and a UX researcher based in Canada, I contributed to all phases of the design process, including research with prototype testing.  
 
-<p class="m-0">I led the delivery and design handoff part with an engineering team based in Germany.</p>
+<p class="m-0">I led the delivery and design handoff with an engineering team based in Germany.</p>
 
 </div>
 
@@ -57,7 +55,7 @@ Before starting to shape a solution, the team wanted to learn more about meeting
 We collected insights and found several possible reasons to explain meeting fatigue, such as a significant effort required to interact with others and demonstrate engagement despite a lack of non-verbal cues, a strive to look good on camera, a higher cognitive load due to a lot of faces to process on the screen…
 Another important learning was that meeting fatigue can also have serious consequences on health and can potentially lead to burnout.
 
-<img src="/img/humanize-meetings/meeting-fatigue-discovery.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/meeting-fatigue-discovery.png" class="sm-img mt-4" alt="Discovery board about Meeting Fatigue">
 
 <p class="sm-caption">Discovery board about Meeting Fatigue</p>
 
@@ -69,7 +67,7 @@ Another important learning was that meeting fatigue can also have serious conseq
 
 Based on the learnings from the discovery phase, we brainstormed and generated as many ideas as possible to answer the question “How might we reduce meeting fatigue?”. All items were sorted around different clusters for better visibility and decisions making, with "Group belongingness" being the most interesting to the group.
 
-<img src="/img/humanize-meetings/how-might-we-reduce-meeting-fatigue.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/how-might-we-reduce-meeting-fatigue.png" class="sm-img mt-4" alt="Ideation board">
 
 <p class="sm-caption">Ideation board</p>
 
@@ -81,7 +79,7 @@ Based on the learnings from the discovery phase, we brainstormed and generated a
 
 <div class="row mb-4">
 
-<div class="col-7">
+<div class="col-12 col-lg-7">
 
 ### 1. Hide self-view
 
@@ -95,9 +93,9 @@ Therefore, to reduce the amount of stimuli on screen, users would need to have t
 
 <div class="col-1">&nbsp;</div>
 
-<div class="col-4 d-flex align-items-center">
+<div class="col-12 col-lg-4 d-flex align-items-center">
 
-<div class="sm-card">
+<div class="sm-card mb-3 mb-lg-0">
 
 <p class="sm-card-title">Jobs To Be Done</p>
 
@@ -113,7 +111,7 @@ Therefore, to reduce the amount of stimuli on screen, users would need to have t
 
 This new feature has an impact on the camera layout, so it makes sense to place it in the existing View Switch menu, which includes similar options such as not showing inactive cameras in the layout. The menu is slowly getting crowded as more layout options are added along the way, so I explored a few possibilities for potential reorganization of the interface architecture.
 
-<img src="/img/humanize-meetings/hide-self-view-explorations.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/hide-self-view-explorations.png" class="sm-img mt-4" alt="Entry point explorations">
 
 <p class="sm-caption mb-5">Entry point explorations</p>
 
@@ -121,11 +119,11 @@ This new feature has an impact on the camera layout, so it makes sense to place 
 
 For a better ease of use, we opted for a solution grouping all the menu items at the first level, the medium/long term goal will be to migrate all the layout options into a dedicated settings window. As there was a low complexity for this first increment, the implementation didn’t require much supervision after I delivered specifications and presented the feature to the engineering team during a refinement session.
 
-<img src="/img/humanize-meetings/hide-self-view-specifications.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/hide-self-view-specifications.png" class="sm-img mt-4" alt="Hide Self-View specifications">
 
 <p class="sm-caption mb-3">Hide Self-View specifications</p>
 
-<img src="/img/humanize-meetings/hide-self-view-mockup.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/hide-self-view-mockup.png" class="sm-img mt-4" alt="Hide Self-View in the View-Switch">
 
 <p class="sm-caption mb-5">Hide Self-View in the View-Switch</p>
 
@@ -133,7 +131,7 @@ For a better ease of use, we opted for a solution grouping all the menu items at
 
 <div class="row mb-4">
 
-<div class="col-7">
+<div class="col-12 col-lg-7">
 
 ### 2. Reactions
 
@@ -145,9 +143,9 @@ Based on the learnings we had during the discovery phase, emoji reactions stood 
 
 <div class="col-1">&nbsp;</div>
 
-<div class="col-4 d-flex align-items-center">
+<div class="col-12 col-lg-4 d-flex align-items-center">
 
-<div class="sm-card">
+<div class="sm-card mb-3 mb-lg-0">
 
 <p class="sm-card-title">Jobs To Be Done</p>
 
@@ -159,10 +157,6 @@ Based on the learnings we had during the discovery phase, emoji reactions stood 
 
 </div>
 
-#### Entry point
-
-<div class="mb-5">One of our design principles is to let users shine. Meetings are their time in the spotlight, so we want to make the interface as non-intrusive as possible. We usually try to reuse existing elements as new entry points to keep a light visual, so the existing Hand Raise button was our best candidate, as it’s also a way to react. A split button variant of the button component was available in our design system, so we used it to provide an emoji selection in a reaction popup. We also synced with the mobile team to check how this entry point might work on other devices.</div>
-
 #### Research
 
 This potential solution requiring a significant effort to be implemented, we decided to conduct some user testing to validate the interest and benefits of such a feature. We also wanted to check discoverability with the selected entry-point and get insights about the considered set of emojis. For this, we did some A/B testing by creating 2 variants of prototypes, with different icons in the react button and a different representation of the reactions feed. 
@@ -171,21 +165,23 @@ I participated in all parts of the research: writing a test scenario, creating p
  
 The scenario was based on various questions, we asked testers: to complete the task of sending a quick emoji reaction to show they agree with the current speaker, to give feedback on how reactions are displayed on screen when they present content to the audience, to tell us which emojis they would use most frequently in their online meetings and to rate how much useful reactions would be helpful for them…
 
-<img src="/img/humanize-meetings/reactions-prototype.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/reactions-prototype.png" class="sm-img mt-4" alt="Prototype built in Figma">
 
 <p class="sm-caption mb-3">Prototype built in Figma</p>
 
-<img src="/img/humanize-meetings/reactions-research.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/reactions-research.png" class="sm-img mt-4" alt="Research results">
 
 <p class="sm-caption mb-5">Research results</p>
 
 #### Delivery
 
-<img src="/img/humanize-meetings/reactions-popup-specifications.png" class="sm-img mt-4">
+The solution being validated by our research insights, I prepared the design handoff and created specifications to explain the requirements of this new feature to engineers. I led this part of the process because I’m located in the same time zone as the engineering team, which was more convenient for participating in daily stand-ups meetings and having ad-hoc discussions. Once implemented, the team tested the feature for a few days before making it available in beta, then delivering it to our customers.
+
+<img src="/img/humanize-meetings/reactions-popup-specifications.png" class="sm-img mt-4" alt="Reactions popup specifications">
 
 <p class="sm-caption mb-3">Reactions popup specifications</p>
 
-<img src="/img/humanize-meetings/reactions-feed-specifications.png" class="sm-img mt-4">
+<img src="/img/humanize-meetings/reactions-feed-specifications.png" class="sm-img mt-4" alt="Reactions feed specifications">
 
 <p class="sm-caption mb-5">Reactions feed specifications</p>
 
@@ -195,6 +191,7 @@ The scenario was based on various questions, we asked testers: to complete the t
 
 ## Outcome
 
-Lorem
+CES scores increased after delivery, however it remains uncertain to relate the improvement to these 2 new features without verbatim.
+Internal feedback was positive and a second iteration has been planned for reactions to add more emojis, custom emojis and skin tone selection. I appreciated working on this project because it made the user experience more interactive while having a meaningful impact on people's health.
 
 </section>

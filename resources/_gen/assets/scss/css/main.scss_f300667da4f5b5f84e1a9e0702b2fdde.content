@@ -5547,16 +5547,7 @@ progress {
   color: #fff; }
 
 main.home .baseline h2, main.list .baseline h2, main.home .baseline .h2, main.list .baseline .h2, main.home .baseline .portfolio-item-content h3, main.list .baseline .portfolio-item-content h3, main.home .portfolio-item-content .baseline h3, main.list .portfolio-item-content .baseline h3, main.home .baseline .portfolio-item-content .h3, main.list .baseline .portfolio-item-content .h3, main.home .portfolio-item-content .baseline .h3, main.list .portfolio-item-content .baseline .h3 {
-  font-weight: 600;
-  /*
-.mt-4,
-                .mt-md-5,
-                .mb-6,
-                .mb-sm-7,
-                .mb-md-8,
-                .mb-lg-9
-
-            */ }
+  font-weight: 600; }
 
 main.home .portfolio-item-content h4, main.list .portfolio-item-content h4, main.home .portfolio-item-content .h4, main.home .portfolio-item-content main.single h5, main.single main.home .portfolio-item-content h5, main.home .portfolio-item-content main.single .h5, main.single main.home .portfolio-item-content .h5, main.single main.home .portfolio-item-content .baseline h1, main.single main.home .baseline .portfolio-item-content h1, main.home .portfolio-item-content .baseline main.single h1, main.home .baseline main.single .portfolio-item-content h1, main.single main.home .portfolio-item-content .baseline .h1, main.single main.home .baseline .portfolio-item-content .h1, main.home .portfolio-item-content .baseline main.single .h1, main.home .baseline main.single .portfolio-item-content .h1, main.list .portfolio-item-content .h4, main.list .portfolio-item-content main.single h5, main.single main.list .portfolio-item-content h5, main.list .portfolio-item-content main.single .h5, main.single main.list .portfolio-item-content .h5, main.list .portfolio-item-content main.single main.home .baseline h1, main.list .portfolio-item-content main.home .baseline main.single h1, main.list .portfolio-item-content main.single main.home .baseline .h1, main.list .portfolio-item-content main.home .baseline main.single .h1, main.home .portfolio-item-content .dribbble-shots h5, main.list .portfolio-item-content .dribbble-shots h5, main.home .dribbble-shots .portfolio-item-content h5, main.list .dribbble-shots .portfolio-item-content h5, main.home .portfolio-item-content .dribbble-shots .h5, main.list .portfolio-item-content .dribbble-shots .h5, main.home .dribbble-shots .portfolio-item-content .h5, main.list .dribbble-shots .portfolio-item-content .h5, main.home .portfolio-item-content .dribbble-shots .baseline h1, main.list .portfolio-item-content .dribbble-shots .baseline h1, main.home .dribbble-shots .baseline .portfolio-item-content h1, main.list .dribbble-shots .baseline .portfolio-item-content h1, main.home .portfolio-item-content .baseline .dribbble-shots h1, main.list .portfolio-item-content .baseline .dribbble-shots h1, main.home .baseline .dribbble-shots .portfolio-item-content h1, main.list .baseline .dribbble-shots .portfolio-item-content h1, main.home .portfolio-item-content .dribbble-shots .baseline .h1, main.list .portfolio-item-content .dribbble-shots .baseline .h1, main.home .dribbble-shots .baseline .portfolio-item-content .h1, main.list .dribbble-shots .baseline .portfolio-item-content .h1, main.home .portfolio-item-content .baseline .dribbble-shots .h1, main.list .portfolio-item-content .baseline .dribbble-shots .h1, main.home .baseline .dribbble-shots .portfolio-item-content .h1, main.list .baseline .dribbble-shots .portfolio-item-content .h1 {
   color: #6c757d;
