@@ -1,5 +1,5 @@
 ---
-title: "Bring new features outside of an end-of-life product"
+title: "Replace an outdated product for faster delivery of new features"
 date: 2022-01-19
 draft: false
 product: "Caldera Jobs"

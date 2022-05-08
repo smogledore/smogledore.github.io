@@ -1,5 +1,5 @@
 ---
-title: "Handling transition to a new technology"
+title: "Create a companion application to initiate transition to a new product portfolio"
 date: 2022-01-18
 draft: false
 product: "Caldera Dock"

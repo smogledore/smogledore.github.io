@@ -1,5 +1,5 @@
 ---
-title: "Create a new product to get new customers from a vertical approach - Target a new market with a dedicated product"
+title: "Increase customer acquisition with a new product created for a vertical approach"
 date: 2022-01-20
 draft: false
 product: "Caldera Textile"

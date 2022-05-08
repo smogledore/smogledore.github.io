@@ -120,13 +120,13 @@ main.home {
                         .h5,
                         .mt-2;
                     
-                    color: $gray-600;
+                    color: $gray-500;
 
                     font-weight: 400;
                 }
 
                 h3 {
-                    @extend .h2;
+                   color: $body-color;
                 }
 
                 a {
@@ -134,8 +134,12 @@ main.home {
                 }
 
                 &:hover {
+                    h3 {
+                        color: $gray-400;
+                    }
+
                     h4 {
-                        color: $gray-500;
+                        color: $gray-600;
                     }
                 }
             }

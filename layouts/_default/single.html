@@ -1,6 +1,6 @@
 {{ define "main" }}
     <main class="single">
-        <h1>{{.Title}}</h1>
+        <h1 class="{{ .Params.TitleClass }}">{{.Title}}</h1>
         <h5>{{ .Params.Subtitle }}</h5>
         {{ .Content }}
     </main>
