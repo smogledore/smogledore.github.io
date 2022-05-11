@@ -7,7 +7,7 @@ product: "GoTo Meeting"
 thumbnail: "/img/meeting-grid/meeting-grid-thumbnail.png"
 ---
 
-<img src="/img/meeting-grid/meeting-grid-thumbnail.png" class="sm-img mb-6" alt="Meeting Grid">
+<img src="/img/meeting-grid/meeting-grid-thumbnail-3x.png" class="sm-img mb-6" alt="Meeting Grid">
 
 <section>
 
@@ -67,9 +67,9 @@ Lorem
 
 Lorem
 
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
+<img src="/img/meeting-grid/ideation.png" class="sm-img mt-4" alt="Ideation board">
 
-<p class="sm-caption">Caption</p>
+<p class="sm-caption">Ideation board</p>
 
 </section>
 
@@ -147,11 +147,19 @@ Lorem
 
 Lorem
 
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
+<img src="/img/meeting-grid/pagination-specifications.png" class="sm-img mt-4" alt="Pagination specifications">
+
+<p class="sm-caption mb-3">Pagination specifications</p>
+
+<img src="/img/meeting-grid/pagination-mockups.png" class="sm-img mt-4" alt="Alt">
+
+<p class="sm-caption mb-5">Pagination in the meeting interface</p>
+
+<img src="/img/meeting-grid/post-mvp-specifications.png" class="sm-img mt-4" alt="Alt">
 
 <p class="sm-caption mb-3">Caption</p>
 
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
+<img src="/img/meeting-grid/post-mvp-mockups.png" class="sm-img mt-4" alt="Alt">
 
 <p class="sm-caption mb-5">Caption</p>
 

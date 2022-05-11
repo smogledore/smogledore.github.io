@@ -7,7 +7,7 @@ product: "GoTo Meeting"
 thumbnail: "/img/humanize-meetings/humanize-meetings-thumbnail.png"
 ---
 
-<img src="/img/humanize-meetings/humanize-meetings-thumbnail.png" class="sm-img mb-6" alt="Meeting Reactions">
+<img src="/img/humanize-meetings/humanize-meetings-thumbnail-3x.png" class="sm-img mb-6" alt="Meeting Reactions">
 
 <section>
 
@@ -183,7 +183,11 @@ The solution being validated by our research insights, I prepared the design han
 
 <img src="/img/humanize-meetings/reactions-feed-specifications.png" class="sm-img mt-4" alt="Reactions feed specifications">
 
-<p class="sm-caption mb-5">Reactions feed specifications</p>
+<p class="sm-caption mb-3">Reactions feed specifications</p>
+
+<img src="/img/humanize-meetings/reactions-popup-and-feed-mockups.png" class="sm-img mt-4" alt="Reactions feed and popup in the meeting interface">
+
+<p class="sm-caption mb-5">Reactions feed and popup in the meeting interface</p>
 
 </section>
 

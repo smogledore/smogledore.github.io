@@ -6,6 +6,8 @@ product: "Caldera Textile"
 thumbnail: "/img/caldera-textile/caldera-textile-thumbnail.png"
 ---
 
+<img src="/img/caldera-textile/caldera-textile-thumbnail-3x.png" class="sm-img mb-6" alt="Caldera Textile">
+
 <section>
 
 ## Problem statement

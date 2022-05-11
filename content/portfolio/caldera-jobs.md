@@ -5,6 +5,9 @@ draft: false
 product: "Caldera Jobs"
 thumbnail: "/img/caldera-jobs/caldera-jobs-thumbnail.png"
 ---
+
+<img src="/img/caldera-jobs/caldera-jobs-thumbnail-3x.png" class="sm-img mb-6" alt="Caldera Jobs">
+
 ## Problem statement
 The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment.  
 Having to sometimes manage thousands of jobs, its performance is reduced in this case to the detriment of the user experience. In addition, it is no longer scalable due to the aging of its technology, which slows innovation: implementing a new feature consumes considerable time, which is not realistic in the company’s strategy.  

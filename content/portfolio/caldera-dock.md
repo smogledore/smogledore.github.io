@@ -1,10 +1,13 @@
 ---
-title: "Create a companion application to initiate transition to a new product portfolio"
+title: "Create a companion application to initiate transition towards a new product portfolio"
 date: 2022-01-18
 draft: false
 product: "Caldera Dock"
 thumbnail: "/img/caldera-dock/caldera-dock-thumbnail.png"
 ---
+
+<img src="/img/caldera-dock/caldera-dock-thumbnail-3x.png" class="sm-img mb-6" alt="Caldera Dock">
+
 ## Problem statement
 Developed since 2003, CalderaRIP uses an aging technology which will soon no longer be supported by all operating systems. In addition, this technology is not scalable, the new features take a considerable time to be implemented, which represents a risk of missing the time to market against our competitors.  
 There is therefore a real need for transition to a more modern technology, in order to guarantee the software lifetime and the speed of iterations.  
