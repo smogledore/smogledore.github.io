@@ -165,9 +165,9 @@ I participated in all parts of the research: writing a test scenario, creating p
  
 The scenario was based on various questions, we asked testers: to complete the task of sending a quick emoji reaction to show they agree with the current speaker, to give feedback on how reactions are displayed on screen when they present content to the audience, to tell us which emojis they would use most frequently in their online meetings and to rate how much useful reactions would be helpful for them…
 
-<img src="/img/humanize-meetings/reactions-prototype.png" class="sm-img mt-4" alt="Prototype built in Figma">
+<img src="/img/humanize-meetings/reactions-prototype.png" class="sm-img mt-4" alt="Prototypes built in Figma">
 
-<p class="sm-caption mb-3">Prototype built in Figma</p>
+<p class="sm-caption mb-3">Prototypes built in Figma</p>
 
 <img src="/img/humanize-meetings/reactions-research.png" class="sm-img mt-4" alt="Research results">
 

@@ -113,13 +113,13 @@ Lorem
 
 Lorem
 
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
+<img src="/img/meeting-grid/mvp-specifications.png" class="sm-img mt-4" alt="MVP specifications">
 
-<p class="sm-caption mb-3">Caption</p>
+<p class="sm-caption mb-3">MVP specifications</p>
 
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
+<img src="/img/meeting-grid/mvp-mockups.png" class="sm-img mt-4" alt="Meeting Grid examples">
 
-<p class="sm-caption mb-5">Caption</p>
+<p class="sm-caption mb-5">Meeting Grid examples</p>
 
 </section>
 
@@ -153,7 +153,7 @@ Lorem
 
 <img src="/img/meeting-grid/pagination-mockups.png" class="sm-img mt-4" alt="Alt">
 
-<p class="sm-caption mb-5">Pagination in the meeting interface</p>
+<p class="sm-caption mb-3">Pagination in the meeting interface</p>
 
 <img src="/img/meeting-grid/post-mvp-specifications.png" class="sm-img mt-4" alt="Alt">
 
