@@ -49,7 +49,11 @@ I was in charge of the entire design process for this initiative, including user
 
 ## Discovery
 
-Lorem
+As a first step to understand the scope and identify potential improvements, I searched for existing insights about the Meeting Grid.  
+ 
+Pain points and known issues had already been collected by UX Research, including problems specific to large meetings, regarding participants visibility: during a presentation, the interface is split to display shared content while keeping the audience visible in a smaller space, making cameras too small to see participants and find the current speaker in the audience, especially for visually impaired users. Additionally, displaying initials for inactive cameras can be confusing for large meetings as multiple participants may have the same initials, and in some cases there is wasted space around the grid that could be used to display larger tiles.  
+ 
+It was important to know the current behavior of the Meeting Grid, for this I studied the different layout possibilities that can vary depending on the selected view, the number of participants and the size of the window. Engineers from the team also shared metrics with me about the screen resolutions of our users, which was helpful when designing the MVP.
 
 <img src="/img/meeting-grid/discovery-board.png" class="sm-img mt-4" alt="Discovery board about the Meeting Grid">
 
@@ -65,7 +69,11 @@ Lorem
 
 ## Ideation
 
-Lorem
+With the insights learned from the discovery phase, I started thinking about different solutions to maintain an acceptable size of camera while having all participants easily accessible.  
+ 
+Regarding the layout, pagination or scrolling seemed to be simple options to bring into the product, compared to less common ideas such as having an open canvas or a less strict space in which participants could move. I also explored possibilities for certain characteristics of the Meeting Grid, like its responsiveness, the visibility of the current speaker and how to make non-visible tiles appear on screen… Regarding camera tiles, there were serval ways to handle different aspect ratios and optimize the display of a feed in its container, such as cropping or using a fluid size for the tiles.  
+ 
+In parallel, the engineering team initiated the development of a Proof-Of-Concept, to exchange more quickly on the considered concepts and adjust design choices based on technical limitations.
 
 <img src="/img/meeting-grid/ideation.png" class="sm-img mt-4" alt="Ideation board">
 
@@ -81,7 +89,9 @@ Lorem
 
 <div class="col-12 col-lg-7">
 
-Lorem
+The purpose of this MVP was to create the key building blocks of the new Meeting Grid, a solid foundation that will help participants be more visible and feel more engaged in a meeting.  
+ 
+After discussing the different options with the team, we decided to use a scrolling pattern for this first increment, as it was the solution to easily browse the audience with the highest impact and minimal effort.
 
 </div>
 
@@ -93,21 +103,13 @@ Lorem
 
 <p class="sm-card-title">Jobs To Be Done</p>
 
-#### When I X, I want to X so I can X.
+#### When I’m in a meeting, I want to see the webcam of the participants correctly so that I can look at their reaction.
 
 </div>
 
 </div>
 
 </div>
-
-#### Explorations
-
-Lorem
-
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
-
-<p class="sm-caption mb-5">Caption</p>
 
 #### Delivery
 
@@ -126,10 +128,6 @@ Lorem
 ## Research
 
 Lorem
-
-<img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
-
-<p class="sm-caption mb-3">Caption</p>
 
 <img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
 
