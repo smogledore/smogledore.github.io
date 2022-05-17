@@ -7,7 +7,7 @@ titleClass: "d-none"
 
 ## Designer for more than a decade, I bring an engineering perspective and creative problem- solving approach to create products that people can easily use.
 
-<a href="mailto:smogledore@gmail.com" class="sm-button" title="smogledore@gmail.com" target="_blank">Download my resume</a> 
+<a href="/download/sebastien-moog-resume.pdf" class="sm-button" title="Download my resume" target="_blank">Download my resume</a> 
 
 <img src="/img/about/sebastien-moog.jpg" class="sm-img my-5 no-lightense">
 
