@@ -2,7 +2,7 @@
 title: "Reduce meeting fatigue by providing a more human experience"
 subtitle: "March 2021 - GoTo Meeting Web & Desktop"
 date: 2022-01-21
-draft: false
+draft: true
 product: "GoTo Meeting"
 thumbnail: "/img/humanize-meetings/humanize-meetings-thumbnail.png"
 ---

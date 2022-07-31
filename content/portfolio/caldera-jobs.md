@@ -1,7 +1,7 @@
 ---
 title: "Replace an outdated product for faster delivery of new features"
 date: 2022-01-19
-draft: false
+draft: true
 product: "Caldera Jobs"
 thumbnail: "/img/caldera-jobs/caldera-jobs-thumbnail.png"
 ---

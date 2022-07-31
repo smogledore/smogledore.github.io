@@ -1,7 +1,7 @@
 ---
 title: "Create a companion application to initiate transition towards a new product portfolio"
 date: 2022-01-18
-draft: false
+draft: true
 product: "Caldera Dock"
 thumbnail: "/img/caldera-dock/caldera-dock-thumbnail.png"
 ---

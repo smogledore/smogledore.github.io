@@ -28,64 +28,67 @@
         <div class="container">
             
             <header class="header">     
-                <a href="https://smogledore.github.io" g-component="MagneticComponent"><img src="../img/sebastien-moog.png" alt="Sébastien Moog" title="Sébastien Moog. Senior UX Designer" class="header-avatar"></a>
-                <a href="mailto:smogledore@gmail.com" class="link" title="smogledore@gmail.com" target="_blank">Get in touch</a>
+                <a href="https://smogledore.github.io" g-component="MagneticComponent"><img src="../img/sebastien-moog.png" alt="Sébastien Moog" title="Sébastien Moog. Senior UX Designer" class="header-avatar no-lightense"></a>
+                <nav>
+                    <a href="https://smogledore.github.io" class="header-link">Selected works</a>
+                    <a href="https://smogledore.github.io/about" class="header-link">About</a>
+                </nav>
             </header>
 
             
-            <main>
-                
-    
-<div class="row portfolio">
+            
+    <main class="list">
+        
+<div class="portfolio">
      
-     <div class="col-6">
-          <div class="portfolio-item" style="margin-bottom:50px">
-               <img class="rounded-3 w-100" src="../img/meeting-grid/meeting-grid-thumbnail.png" />
-               <h2>GoTo Meeting</h2>
-               <a href="../portfolio/meeting-grid/" class="h2">This is the title of meeting grid</a>
-          </div>
+     <div class="portfolio-item">
+          <a href="../portfolio/meeting-grid/" class="portfolio-item-content">
+               <img src="../img/meeting-grid/meeting-grid-thumbnail.png" />
+               <h4>GoTo Meeting</h4>
+               <h3>Improve the large meeting experience with better camera layouts</h3>
+          </a>
      </div>
      
-     <div class="col-6">
-          <div class="portfolio-item" style="margin-bottom:50px">
-               <img class="rounded-3 w-100" src="../img/humanize-meetings/humanize-meetings-thumbnail.png" />
-               <h2>GoTo Meeting</h2>
-               <a href="../portfolio/humanize-meetings/" class="h2">Humanizing the meeting experience</a>
-          </div>
+     <div class="portfolio-item">
+          <a href="../portfolio/humanize-meetings/" class="portfolio-item-content">
+               <img src="../img/humanize-meetings/humanize-meetings-thumbnail.png" />
+               <h4>GoTo Meeting</h4>
+               <h3>Reduce meeting fatigue by providing a more human experience</h3>
+          </a>
      </div>
      
-     <div class="col-6">
-          <div class="portfolio-item" style="margin-bottom:50px">
-               <img class="rounded-3 w-100" src="../img/caldera-textile/caldera-textile-thumbnail.png" />
-               <h2>Caldera Textile</h2>
-               <a href="../portfolio/caldera-textile/" class="h2">Target a new market with a dedicated product</a>
-          </div>
+     <div class="portfolio-item">
+          <a href="../portfolio/caldera-textile/" class="portfolio-item-content">
+               <img src="../img/caldera-textile/caldera-textile-thumbnail.png" />
+               <h4>Caldera Textile</h4>
+               <h3>Increase customer acquisition with a new product created for a vertical approach</h3>
+          </a>
      </div>
      
-     <div class="col-6">
-          <div class="portfolio-item" style="margin-bottom:50px">
-               <img class="rounded-3 w-100" src="../img/caldera-jobs/caldera-jobs-thumbnail.png" />
-               <h2>Caldera Jobs</h2>
-               <a href="../portfolio/caldera-jobs/" class="h2">Bring new features outside of an end-of-life product</a>
-          </div>
+     <div class="portfolio-item">
+          <a href="../portfolio/caldera-jobs/" class="portfolio-item-content">
+               <img src="../img/caldera-jobs/caldera-jobs-thumbnail.png" />
+               <h4>Caldera Jobs</h4>
+               <h3>Replace an outdated product for faster delivery of new features</h3>
+          </a>
      </div>
      
-     <div class="col-6">
-          <div class="portfolio-item" style="margin-bottom:50px">
-               <img class="rounded-3 w-100" src="../img/caldera-dock/caldera-dock-thumbnail.png" />
-               <h2>Caldera Dock</h2>
-               <a href="../portfolio/caldera-dock/" class="h2">Handling transition to a new technology</a>
-          </div>
+     <div class="portfolio-item">
+          <a href="../portfolio/caldera-dock/" class="portfolio-item-content">
+               <img src="../img/caldera-dock/caldera-dock-thumbnail.png" />
+               <h4>Caldera Dock</h4>
+               <h3>Create a companion application to initiate transition towards a new product portfolio</h3>
+          </a>
      </div>
      
 </div>
 
 
 <script>
-     
+     ScrollReveal().reveal('.portfolio-item', slideUp);
 </script>
+    </main>
 
-            </main>
 
             
             <footer class="footer">
@@ -108,6 +111,7 @@
         
         <script>
            ScrollReveal().reveal('.dribbble-shots-item', slideUp);
+           ScrollReveal().reveal('.sm-img', slideUp);
         </script>
     </body>
 </html>

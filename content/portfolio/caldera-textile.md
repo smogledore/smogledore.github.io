@@ -1,7 +1,7 @@
 ---
 title: "Increase customer acquisition with a new product created for a vertical approach"
 date: 2022-01-20
-draft: false
+draft: true
 product: "Caldera Textile"
 thumbnail: "/img/caldera-textile/caldera-textile-thumbnail.png"
 ---
