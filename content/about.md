@@ -1,6 +1,7 @@
 ---
 title: "About"
 titleClass: "d-none"
+draft: false
 ---
 
 # Hey, I’m Sébastien!

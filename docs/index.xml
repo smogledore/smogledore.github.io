@@ -5,7 +5,58 @@
     <link>https://smogledore.github.io/</link>
     <description>Recent content on Sébastien Moog. Senior UX Designer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://smogledore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smogledore.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improve the large meeting experience with better camera layouts</title>
+      <link>https://smogledore.github.io/portfolio/meeting-grid/</link>
+      <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://smogledore.github.io/portfolio/meeting-grid/</guid>
+      <description>Problem statement A key point in GoTo&amp;rsquo;s recent business strategy was to unify its complex portfolio of multiple native applications into a single product and, like many other tech companies, transition to a framework based on web technologies called Electron. Thus, the entire codebase had to be reworked, including the interface implementation of GoTo Meeting, an online videoconferencing application that hosts 80+ million annual online meetings.
+The core of the meeting experience is the camera layout, also called “Meeting Grid”.</description>
+    </item>
+    
+    <item>
+      <title>Reduce meeting fatigue by providing a more human experience</title>
+      <link>https://smogledore.github.io/portfolio/humanize-meetings/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://smogledore.github.io/portfolio/humanize-meetings/</guid>
+      <description>Problem statement With the COVID-19 health pandemic spreading around the world, many employees transitioned to remote work, using video conferencing applications extensively.
+While there is no doubt that technology has greatly supported remote collaboration during these moments of isolation, the sudden shift led workers to start reporting meeting fatigue, a new phenomenon of feeling tired and exhausted attributed to an excessive usage of online meetings. Since then, the topic has been widely covered in the media, with the term counting over 700,000 hits on Google by the end of 2020.</description>
+    </item>
+    
+    <item>
+      <title>Increase customer acquisition with a new product created for a vertical approach</title>
+      <link>https://smogledore.github.io/portfolio/caldera-textile/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://smogledore.github.io/portfolio/caldera-textile/</guid>
+      <description>Problem statement After twenty years of growth, the inkjet printing market has now reached maturity and is only showing annual growth between 2 and 5%. Caldera must renew itself, and decides to target the emerging textile printing market.
+The CalderaRIP application already has useful functionalities for textile printing, but these are lost in a complex interface offering a wide range of actions intended to cover the needs of different types of users.</description>
+    </item>
+    
+    <item>
+      <title>Replace an outdated product for faster delivery of new features</title>
+      <link>https://smogledore.github.io/portfolio/caldera-jobs/</link>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://smogledore.github.io/portfolio/caldera-jobs/</guid>
+      <description>Problem statement The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment.
+Having to sometimes manage thousands of jobs, its performance is reduced in this case to the detriment of the user experience. In addition, it is no longer scalable due to the aging of its technology, which slows innovation: implementing a new feature consumes considerable time, which is not realistic in the company’s strategy.</description>
+    </item>
+    
+    <item>
+      <title>Create a companion application to initiate transition towards a new product portfolio</title>
+      <link>https://smogledore.github.io/portfolio/caldera-dock/</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://smogledore.github.io/portfolio/caldera-dock/</guid>
+      <description>Problem statement Developed since 2003, CalderaRIP uses an aging technology which will soon no longer be supported by all operating systems. In addition, this technology is not scalable, the new features take a considerable time to be implemented, which represents a risk of missing the time to market against our competitors.
+There is therefore a real need for transition to a more modern technology, in order to guarantee the software lifetime and the speed of iterations.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://smogledore.github.io/about/</link>

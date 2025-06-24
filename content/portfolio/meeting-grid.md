@@ -2,7 +2,7 @@
 title: "Improve the large meeting experience with better camera layouts"
 subtitle: "January 2021 - GoTo Meeting Web & Desktop"
 date: 2022-01-22
-draft: true
+draft: false
 product: "GoTo Meeting"
 thumbnail: "/img/meeting-grid/meeting-grid-thumbnail.png"
 ---
