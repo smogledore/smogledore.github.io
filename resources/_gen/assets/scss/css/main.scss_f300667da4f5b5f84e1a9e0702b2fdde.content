@@ -2152,7 +2152,7 @@ progress {
 .mb-2, main.single .sm-card-title {
   margin-bottom: 0.5rem !important; }
 
-.mb-3, main.home .portfolio-item-content img, main.list .portfolio-item-content img, main.home .portfolio, main.list .portfolio {
+.mb-3, main.home .portfolio-item-content img, main.list .portfolio-item-content img {
   margin-bottom: 1rem !important; }
 
 .mb-4, main.single h4, main.single .h4, main.single h5, main.single .h5, main.single main.home .portfolio-item-content h4, main.home .portfolio-item-content main.single h4, main.single main.home .dribbble-shots h5, main.home .dribbble-shots main.single h5, main.single h1, main.single .h1, main.single main.home .portfolio-item-content a, main.home .portfolio-item-content main.single a, main.home .dribbble-shots-item, main.list .dribbble-shots-item, main.home .baseline h1, main.list .baseline h1, main.home .baseline .h1, main.list .baseline .h1, main.home .baseline .portfolio-item-content a, main.list .baseline .portfolio-item-content a, main.home .portfolio-item-content .baseline a, main.list .portfolio-item-content .baseline a {
@@ -3087,7 +3087,7 @@ progress {
     margin-bottom: 0.5rem !important; }
   .mb-sm-3 {
     margin-bottom: 1rem !important; }
-  .mb-sm-4, main.home .portfolio, main.list .portfolio {
+  .mb-sm-4 {
     margin-bottom: 1.5rem !important; }
   .mb-sm-5 {
     margin-bottom: 3rem !important; }
@@ -3633,7 +3633,7 @@ progress {
     margin-bottom: 1rem !important; }
   .mb-md-4 {
     margin-bottom: 1.5rem !important; }
-  .mb-md-5, main.home .portfolio, main.list .portfolio {
+  .mb-md-5 {
     margin-bottom: 3rem !important; }
   .mb-md-6 {
     margin-bottom: 5rem !important; }
@@ -3783,9 +3783,9 @@ progress {
     padding-top: 1.5rem !important; }
   .pt-md-5 {
     padding-top: 3rem !important; }
-  .pt-md-6 {
+  .pt-md-6, footer {
     padding-top: 5rem !important; }
-  .pt-md-7, footer {
+  .pt-md-7 {
     padding-top: 7rem !important; }
   .pt-md-8 {
     padding-top: 9rem !important; }
@@ -4179,7 +4179,7 @@ progress {
     margin-bottom: 1.5rem !important; }
   .mb-lg-5 {
     margin-bottom: 3rem !important; }
-  .mb-lg-6, main.home .portfolio, main.list .portfolio {
+  .mb-lg-6 {
     margin-bottom: 5rem !important; }
   .mb-lg-7 {
     margin-bottom: 7rem !important; }
@@ -4329,9 +4329,9 @@ progress {
     padding-top: 3rem !important; }
   .pt-lg-6 {
     padding-top: 5rem !important; }
-  .pt-lg-7 {
+  .pt-lg-7, footer {
     padding-top: 7rem !important; }
-  .pt-lg-8, footer {
+  .pt-lg-8 {
     padding-top: 9rem !important; }
   .pt-lg-9 {
     padding-top: 11rem !important; }

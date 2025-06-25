@@ -93,11 +93,14 @@ main.home {
 
     .portfolio {
         @extend 
-            .row,
-            .mb-3,
-            .mb-sm-4,
-            .mb-md-5,
-            .mb-lg-6;
+            .row;
+
+        // @extend 
+        //     .row,
+        //     .mb-3,
+        //     .mb-sm-4,
+        //     .mb-md-5,
+        //     .mb-lg-6;
 
         &-item {
             @extend 
@@ -256,11 +259,18 @@ main.single {
 }
 
 footer {
+    // @extend 
+    //     .pt-5,
+    //     .pt-sm-6,
+    //     .pt-md-7,
+    //     .pt-lg-8,
+    //     .pb-5;
+
     @extend 
         .pt-5,
         .pt-sm-6,
-        .pt-md-7,
-        .pt-lg-8,
+        .pt-md-6,
+        .pt-lg-7,
         .pb-5;
 
     ul {

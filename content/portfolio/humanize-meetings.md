@@ -1,6 +1,6 @@
 ---
 title: "Reduce meeting fatigue by providing a more human experience"
-subtitle: "March 2021 - GoTo Meeting Web & Desktop"
+subtitle: "Product: GoTo Meeting Web & Desktop"
 date: 2022-01-21
 draft: false
 product: "GoTo Meeting"
