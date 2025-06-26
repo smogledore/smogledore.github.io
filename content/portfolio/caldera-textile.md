@@ -52,6 +52,31 @@ In this context, the need for a prepress product dedicated to this market arises
 ## Workshop facilitation
 At the early stage of the project, I suggested to facilitate a workshop with all the members of the R&D department, to discuss about the structure of the application, so that everyone can feel involved in this creation of new product. It helped for diverging as we generated a lot of different ideas, and I was also able to get valuable information on textile printing from backend developpers who have been working on CalderaRIP for years.
 
+
+
+
+
+<div class="row mt-4">
+
+<div class="col-12 col-lg-7">
+
+IMG 1
+
+</div>
+
+<div class="col-md-1">&nbsp;</div>
+
+<div class="col-12 col-lg-4 d-flex align-items-center">
+
+IMG 2
+
+</div>
+
+</div>
+
+
+
+
 </section>
 
 <section>
