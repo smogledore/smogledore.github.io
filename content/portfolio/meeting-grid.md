@@ -113,7 +113,7 @@ After discussing the different options with the team, we decided to use a scroll
 
 #### Delivery
 
-Lorem
+<!-- Add text content here -->
 
 <img src="/img/meeting-grid/mvp-specifications.png" class="sm-img mt-4" alt="MVP specifications">
 
@@ -125,25 +125,33 @@ Lorem
 
 </section>
 
+<!--
 ## Research
+ -->
 
-Lorem
+<!-- Add text content here -->
 
+<!--
 <img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
 
 <p class="sm-caption mb-5">Caption</p>
+ -->
 
 ## Refining the solution
 
 Lorem
 
+<!--
 <img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
 
 <p class="sm-caption mb-3">Caption</p>
+ -->
 
+<!--
 #### Delivery
+ -->
 
-Lorem
+<!-- Add text content here -->
 
 <img src="/img/meeting-grid/pagination-specifications.png" class="sm-img mt-4" alt="Pagination specifications">
 
@@ -155,11 +163,11 @@ Lorem
 
 <img src="/img/meeting-grid/post-mvp-specifications.png" class="sm-img mt-4" alt="Alt">
 
-<p class="sm-caption mb-3">Caption</p>
+<p class="sm-caption mb-3">"Who's talking" view specifications</p>
 
 <img src="/img/meeting-grid/post-mvp-mockups.png" class="sm-img mt-4" alt="Alt">
 
-<p class="sm-caption mb-5">Caption</p>
+<p class="sm-caption mb-5">Meeting grid examples</p>
 
 </section>
 
