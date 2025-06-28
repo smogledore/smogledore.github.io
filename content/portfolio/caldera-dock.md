@@ -52,15 +52,13 @@ After having arranged the first contents, I suggested to study the possibility o
 
 <div class="row">
 
-<div class="col-12 col-lg-7">
+<div class="col-12 col-lg-8">
 
 <img src="/img/caldera-dock/card-sorting.jpg" class="sm-img mt-4" alt="Card sorting">
 
 <p class="sm-caption">Card sorting to organize resources</p>
 
 </div>
-
-<div class="col-md-1">&nbsp;</div>
 
 <div class="col-12 col-lg-4">
 
@@ -74,6 +72,28 @@ After having arranged the first contents, I suggested to study the possibility o
 
 ## Heatmaps
 We used Hotjar on our service platform to define, using heatmaps, which resources were most downloaded by our customers. Drivers and profiles are by far the most popular content, so they had their own entry in the main menu.
+
+<img src="/img/caldera-dock/hotjar.png" class="sm-img mt-4" alt="Hotjar">
+
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-dock/hotjar.png" class="sm-img mt-4" alt="Hotjar">
+
+</div>
+
+<div class="col-12 col-lg-6 d-flex align-items-center">
+
+<img src="/img/caldera-dock/hotjar.png" class="sm-img mt-4" alt="Hotjar">
+
+</div>
+
+</div>
+
+</section>
 
 ## Taskflow
 I created a task flow in order to specify if part of the management of the licenses had their place in this application: activation and attachment of a license to a station have been implemented here.
