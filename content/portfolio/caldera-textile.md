@@ -156,25 +156,25 @@ In addition to the main high-fidelity mockup, I declined the screens that I foun
 
 <div class="col-12 col-lg-6">
 
-<img src="/img/caldera-textile/Fileman.png" class="sm-img mt-4" alt="File Manager">
+<img src="/img/caldera-textile/fileman.png" class="sm-img mt-4" alt="File Manager">
 
 </div>
 
 <div class="col-12 col-lg-6">
 
-<img src="/img/caldera-textile/Colorways.png" class="sm-img mt-4" alt="Colorways">
+<img src="/img/caldera-textile/colorways.png" class="sm-img mt-4" alt="Colorways">
 
 </div>
 
 <div class="col-12 col-lg-6">
 
-<img src="/img/caldera-textile/Production.png" class="sm-img mt-4" alt="Production">
+<img src="/img/caldera-textile/production.png" class="sm-img mt-4" alt="Production">
 
 </div>
 
 <div class="col-12 col-lg-6">
 
-<img src="/img/caldera-textile/Launch.png" class="sm-img mt-4" alt="Launch">
+<img src="/img/caldera-textile/launch.png" class="sm-img mt-4" alt="Launch">
 
 </div>
 
