@@ -23,11 +23,15 @@ The CalderaRIP application already has useful functionalities for textile printi
 
 In this context, the need for a prepress product dedicated to this market arises, the aim being first to cover the main tasks such as printing a pattern on a complete roll and samples intended to validate customer orders.
 
+<img src="/img/caldera-textile/legacy.jpg" class="sm-img mt-4" alt="CalderaRIP">
+
+<p class="sm-caption">Textile printing options in CaleraRIP</p>
+
 </div>
 
 <div class="col-md-1">&nbsp;</div>
 
-<div class="col-12 col-lg-4 d-flex align-items-center">
+<div class="col-12 col-lg-4">
 
 <div class="sm-card">
     
