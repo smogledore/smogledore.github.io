@@ -23,11 +23,15 @@ There is therefore a real need for transition to a more modern technology, in or
 
 In order to better manage the transition, it has been decided to proceed step by step by dividing the software bricks and implement them along with new features in a new tool that will coexist with CalderaRIP. This application is called CalderaDock. The first functionality to be developed directly in this new application is the management of installation backups.
 
+<img src="/img/caldera-dock/rip.jpg" class="sm-img mt-4" alt="Caldera RIP">
+
+<p class="sm-caption">Legacy version of Calera RIP</p>
+
 </div>
 
 <div class="col-md-1">&nbsp;</div>
 
-<div class="col-12 col-lg-4 d-flex align-items-center">
+<div class="col-12 col-lg-4">
 
 <div class="sm-card">
     
