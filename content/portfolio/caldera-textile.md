@@ -150,7 +150,7 @@ I prepared wireframes for each page necessary for this concept, in order to veri
 ## High fidelity mockups
 In addition to the main high-fidelity mockup, I declined the screens that I found important for documentation within the team, particularly the difference between production mode and studio mode.
 
-<img src="/img/caldera-textile/Studio.png" class="sm-img mt-4" alt="Studio">
+<img src="/img/caldera-textile/studio.png" class="sm-img mt-4" alt="Studio">
 
 <div class="row">
 
