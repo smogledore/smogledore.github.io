@@ -81,13 +81,13 @@ We used Hotjar on our service platform to define, using heatmaps, which resource
 
 <div class="col-12 col-lg-6">
 
-<img src="/img/caldera-dock/hotjar.png" class="sm-img mt-4" alt="Hotjar">
+<img src="/img/caldera-dock/drivers.png" class="sm-img mt-4" alt="Drivers">
 
 </div>
 
 <div class="col-12 col-lg-6 d-flex align-items-center">
 
-<img src="/img/caldera-dock/hotjar.png" class="sm-img mt-4" alt="Hotjar">
+<img src="/img/caldera-dock/profiles.png" class="sm-img mt-4" alt="Profiles">
 
 </div>
 
