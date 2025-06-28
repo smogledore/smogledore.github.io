@@ -85,7 +85,7 @@ We used Hotjar on our service platform to define, using heatmaps, which resource
 
 </div>
 
-<div class="col-12 col-lg-6 d-flex align-items-center">
+<div class="col-12 col-lg-6">
 
 <img src="/img/caldera-dock/profiles.png" class="sm-img mt-4" alt="Profiles">
 
