@@ -68,6 +68,52 @@ All of this research approach was carried out with the understanding that the ap
 
 Also, in order to decide whether the prepress and printing parts should be separated into 2 dedicated applications or not, I associated the workflow of a print shop with personas and products.
 
+<div class="row">
+
+<div class="col-6 col-lg-3">
+
+<img src="/img/caldera-textile/wireframe-1.jpg" class="sm-img mt-4" alt="Wireframe">
+
+</div>
+
+<div class="col-6 col-lg-3">
+
+<img src="/img/caldera-textile/wireframe-2.jpg" class="sm-img mt-4" alt="Wireframe">
+
+</div>
+
+<div class="col-6 col-lg-3">
+
+<img src="/img/caldera-textile/wireframe-3.jpg" class="sm-img mt-4" alt="Wireframe">
+
+</div>
+
+<div class="col-6 col-lg-3">
+
+<img src="/img/caldera-textile/wireframe-4.jpg" class="sm-img mt-4" alt="Wireframe">
+
+</div>
+
+</div>
+
+<p class="sm-caption">Basic wireframes for a structure based on modules</p>
+
+<div class="row">
+
+<div class="col-0 col-lg-2">&nbsp;</div>
+
+<div class="col-12 col-lg-8">
+
+<img src="/img/caldera-textile/workflow.jpg" class="sm-img mt-4" alt="Workflow">
+
+</div>
+
+<div class="col-0 col-lg-2">&nbsp;</div>
+
+</div>
+
+<p class="sm-caption">Workflow associated with personas and products</p>
+
 </section>
 
 <section>
@@ -75,12 +121,64 @@ Also, in order to decide whether the prepress and printing parts should be separ
 ## Prototype
 I prepared wireframes for each page necessary for this concept, in order to verify that it’s functional and responds correctly to user stories. Then, I set up a prototype from these wireframes, this one being intended to be added to the documentation for the team. Using this tool, I got quick feedback from the product owner, who gave me additional information that helped me refine the solution.
 
+<div class="row">
+
+<div class="col-12 col-lg-12">
+
+<img src="/img/caldera-textile/prototype-links.png" class="sm-img mt-4" alt="Interactions">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-textile/prototype-screen-1.png" class="sm-img mt-4" alt="Screens">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-textile/prototype-screen-1.png" class="sm-img mt-4" alt="Screens">
+
+</div>
+
+</div>
+
 </section>
 
 <section>
 
 ## High fidelity mockups
 In addition to the main high-fidelity mockup, I declined the screens that I found important for documentation within the team, particularly the difference between production mode and studio mode.
+
+<img src="/img/caldera-textile/Studio.png" class="sm-img mt-4" alt="Studio">
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-textile/Fileman.png" class="sm-img mt-4" alt="File Manager">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-textile/Colorways.png" class="sm-img mt-4" alt="Colorways">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-textile/Production.png" class="sm-img mt-4" alt="Production">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-textile/Launch.png" class="sm-img mt-4" alt="Launch">
+
+</div>
+
+</div>
 
 </section>
 
