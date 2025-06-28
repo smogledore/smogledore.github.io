@@ -98,6 +98,28 @@ We used Hotjar on our service platform to define, using heatmaps, which resource
 ## Taskflow
 I created a task flow in order to specify if part of the management of the licenses had their place in this application: activation and attachment of a license to a station have been implemented here.
 
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-8">
+
+<img src="/img/caldera-dock/task-flow.png" class="sm-img mt-4" alt="Task flow">
+
+<p class="sm-caption">Task flow for license management</p>
+
+</div>
+
+<div class="col-12 col-lg-4">
+
+<img src="/img/caldera-dock/licenses.png" class="sm-img mt-4" alt="Licenses">
+
+</div>
+
+</div>
+
+</section>
+
 ## Outcome
 During his presentation at the Viscom Milano and SGIA Las Vegas print exhibitions, CalderaDock received good feedback from customers. In a few months, a dozen apps have already been moved from the Caldera RIP software, and new apps have been implemented.
 
