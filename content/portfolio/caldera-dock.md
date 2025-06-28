@@ -124,3 +124,23 @@ I created a task flow in order to specify if part of the management of the licen
 During his presentation at the Viscom Milano and SGIA Las Vegas print exhibitions, CalderaDock received good feedback from customers. In a few months, a dozen apps have already been moved from the Caldera RIP software, and new apps have been implemented.
 
 This product was the first to use our design system, called BBQ.
+
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-dock/dock-light.png" class="sm-img mt-4" alt="Caldera Dock Light">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-dock/dock-dark.png" class="sm-img mt-4" alt="Caldera Dock Dark">
+
+</div>
+
+</div>
+
+</section>
