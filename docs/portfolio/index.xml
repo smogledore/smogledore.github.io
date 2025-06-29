@@ -43,7 +43,7 @@ The CalderaRIP application already has useful functionalities for textile printi
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://smogledore.github.io/portfolio/caldera-jobs/</guid>
-      <description>Problem statement The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment.
+      <description>Problem statement The spooler is a part of Caldera-RIP which provides customers with job queues, categorized by status, for each printer in the production environment.
 Having to sometimes manage thousands of jobs, its performance is reduced in this case to the detriment of the user experience. In addition, it is no longer scalable due to the aging of its technology, which slows innovation: implementing a new feature consumes considerable time, which is not realistic in the company’s strategy.</description>
     </item>
     

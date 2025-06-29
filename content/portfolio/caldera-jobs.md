@@ -17,7 +17,7 @@ thumbnail: "/img/caldera-jobs/caldera-jobs-thumbnail.png"
 
 ## Problem statement
 
-The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment.  
+The spooler is a part of Caldera-RIP which provides customers with job queues, categorized by status, for each printer in the production environment.  
 Having to sometimes manage thousands of jobs, its performance is reduced in this case to the detriment of the user experience. In addition, it is no longer scalable due to the aging of its technology, which slows innovation: implementing a new feature consumes considerable time, which is not realistic in the company’s strategy.
 
 New features are however eagerly awaited by users: archiving/restoring jobs, searching and filtering jobs, customizing the interface and an improved way of displaying nests (a composition of several jobs grouped into one). This is why a new product is created, called CalderaJobs, initially in parallel with the existing spooler but with the aim of ultimately replacing it.
