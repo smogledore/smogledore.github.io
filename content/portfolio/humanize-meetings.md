@@ -195,7 +195,8 @@ The solution being validated by our research insights, I prepared the design han
 
 ## Outcome
 
-CES scores increased after delivery, however it remains uncertain to relate the improvement to these 2 new features without verbatim.
-Internal feedback was positive and a second iteration has been planned for reactions to add more emojis, custom emojis and skin tone selection. I appreciated working on this project because it made the user experience more interactive while having a meaningful impact on people's health.
+Reactions were used in 70% of meeting sessions, with a higher adoption in larger meetings: participants clicked the reaction button more often when over 10 attendees were present. This demonstrates that reactions effectively enhanced non-verbal engagement, especially in more populated sessions. Internal feedback was very positive and a second iteration has been planned for reactions to add more emojis, custom emojis and skin tone selection. 35% of users have hidden their self-view during sessions.
+
+I appreciated working on this project because it made the user experience more interactive while having a meaningful impact on people's health.
 
 </section>
