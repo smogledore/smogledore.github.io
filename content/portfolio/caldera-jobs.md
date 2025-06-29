@@ -17,7 +17,7 @@ thumbnail: "/img/caldera-jobs/caldera-jobs-thumbnail.png"
 
 ## Problem statement
 
-The spooler is a part of Caldera-RIP which provides customers with job queues, categorized by status, for each printer in the production environment.  
+The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment.  
 Having to sometimes manage thousands of jobs, its performance is reduced in this case to the detriment of the user experience. In addition, it is no longer scalable due to the aging of its technology, which slows innovation: implementing a new feature consumes considerable time, which is not realistic in the company’s strategy.
 
 New features are however eagerly awaited by users: archiving/restoring jobs, searching and filtering jobs, customizing the interface and an improved way of displaying nests (a composition of several jobs grouped into one). This is why a new product is created, called CalderaJobs, initially in parallel with the existing spooler but with the aim of ultimately replacing it.
@@ -55,13 +55,6 @@ During the first stages of my work, I focused in particular on two needs that se
 
 Therefore, I studied the option of being able to create custom views. To confirm this, I worked on the information architecture by listing which job parameters could define a view. After that, I found out that the display of nests could be treated in the same way, by assigning temporary filtering parameters to the current view.
 
-
-
-
-
-
-
-
 <section>
 
 <div class="row">
@@ -82,7 +75,52 @@ Therefore, I studied the option of being able to create custom views. To confirm
 
 <p class="sm-caption">Information architecture</p>
 
+<div class="row">
+
+<div class="col-0 col-lg-3">&nbsp;</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/wireframe-1.jpg" class="sm-img mt-4" alt="Wireframe">
+
+</div>
+
+<div class="col-0 col-lg-3">&nbsp;</div>
+
+</div>
+
+<p class="sm-caption">Wireframes for job views</p>
+
 </section>
+
+<!-- <section>
+
+<div class="row">
+
+<div class="col-12 col-lg-4">
+
+<img src="/img/caldera-jobs/wireframe-1.jpg" class="sm-img mt-4" alt="Wireframe">
+
+</div>
+
+<div class="col-12 col-lg-4">
+
+<img src="/img/caldera-jobs/information-architecture-1.jpg" class="sm-img mt-4" alt="Information architecture">
+
+</div>
+
+<div class="col-12 col-lg-4">
+
+<img src="/img/caldera-jobs/information-architecture-2.jpg" class="sm-img mt-4" alt="Information architecture">
+
+</div>
+
+</div>
+
+<p class="sm-caption">Wireframes & Information architecture</p>
+
+</section> -->
+
 
 
 
@@ -96,6 +134,40 @@ Therefore, I studied the option of being able to create custom views. To confirm
 In order to integrate into the Scrum framework, I moved on to the design of an MVP which could be the first iteration allowing to deliver the possibility of archiving and restoring jobs, this being the most urgent need because it can resolve issues encountered in the production of our customers.  
 
 This MVP was implemented in parallel with the rest of the visual design work.
+
+<section>
+
+<div class="row">
+
+<div class="col-0 col-lg-1">&nbsp;</div>
+
+<div class="col-12 col-lg-5">
+
+<img src="/img/caldera-jobs/mvp-wireframe.jpg" class="sm-img mt-4" alt="MVP wireframe">
+
+<p class="sm-caption">MVP wireframe</p>
+
+</div>
+
+<div class="col-12 col-lg-5">
+
+<img src="/img/caldera-jobs/mvp.png" class="sm-img mt-4" alt="Implemented MVP">
+
+<p class="sm-caption">Implemented MVP</p>
+
+</div>
+
+<div class="col-0 col-lg-1">&nbsp;</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
 
 ## Visual design
 We wanted a simple and easy to use interface for this product so I iterated a few times on visual design, taking into account the feedback from my teammates.
