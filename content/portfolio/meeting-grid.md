@@ -139,7 +139,7 @@ After discussing the different options with the team, we decided to use a scroll
 
 ## Refining the solution
 
-Lorem
+Following the release of the MVP, we gathered user feedback and conducted additional research. As a result, we iterated on the design and introduced a paginated layout to replace the scrolling pattern.
 
 <!--
 <img src="/img/meeting-grid/X.png" class="sm-img mt-4" alt="Alt">
@@ -175,6 +175,6 @@ Lorem
 
 ## Outcome
 
-Lorem
+The new paginated layout resulted in a 0.6-point increase in Customer Effort Score, indicating that users found it significantly easier to manage large meetings. Telemetry on the view switcher showed a 35% decrease in interactions, suggesting the layout now adapts more intuitively to user needs.
 
 </section>
