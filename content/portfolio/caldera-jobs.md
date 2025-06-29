@@ -165,13 +165,36 @@ We wanted a simple and easy to use interface for this product so I iterated a fe
 
 </section>
 
-
-
-
-
-
 ## Prototype
 Starting from the high-fidelity mockup of the first screen, I prepared a few scenarios that were aligned with the user stories, and created a full prototype accordingly, in order to perform user testing sessions.
+
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-8">
+
+<img src="/img/caldera-jobs/prototype.png" class="sm-img mt-4" alt="Screens of each prototype scenario">
+
+<p class="sm-caption">Screens of each prototype scenario</p>
+
+</div>
+
+<div class="col-12 col-lg-4">
+
+<img src="/img/caldera-jobs/scenario.jpg" class="sm-img mt-4" alt="Scenarios based on user stories">
+
+<p class="sm-caption">Scenarios based on user stories</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
 
 ## User testing
 I initiated the first user testing sessions within the company in order to obtain feedback before the development of the envisaged solution.
