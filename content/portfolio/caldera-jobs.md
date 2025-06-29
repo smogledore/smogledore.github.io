@@ -9,6 +9,12 @@ thumbnail: "/img/caldera-jobs/caldera-jobs-thumbnail.png"
 
 <img src="/img/caldera-jobs/caldera-jobs-thumbnail-3x.png" class="sm-img mb-6" alt="Caldera Jobs">
 
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-7">
+
 ## Problem statement
 
 The spooler is a part of CalderaRIP which provides customers with job queues, categorized by status, for each printer in the production environment.  
@@ -16,17 +22,42 @@ Having to sometimes manage thousands of jobs, its performance is reduced in this
 
 New features are however eagerly awaited by users: archiving/restoring jobs, searching and filtering jobs, customizing the interface and an improved way of displaying nests (a composition of several jobs grouped into one). This is why a new product is created, called CalderaJobs, initially in parallel with the existing spooler but with the aim of ultimately replacing it.
 
-<section>
+<img src="/img/caldera-jobs/spooler.png" class="sm-img mt-4" alt="Spooler">
+
+<p class="sm-caption">Legacy version of the spooler that will be replaced with CalderaJobs</p>
+
+</div>
+
+<div class="col-md-1">&nbsp;</div>
+
+<div class="col-12 col-lg-4">
+
 <div class="sm-card">
     
 <p class="sm-card-title">The user stories</p>
 
 #### As a production manager, I want to be able to customize my dashboard interface to be more efficient in production control.
 
+<br>
+
 #### As a print operator, I want to quickly locate a job among all the printers, in order to optimize the processing time of a customer order.  
 
 </div>
+
+</div>
+
+</div>
+
 </section>
+
+
+
+
+
+
+
+
+
 
 ## Research and ideation
 During the first stages of my work, I focused in particular on two needs that seemed similar to me: job search/filtering and interface customization. The goal in both cases was to have quick access to information, altering the default display.  
