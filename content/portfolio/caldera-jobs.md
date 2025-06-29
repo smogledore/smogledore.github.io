@@ -192,14 +192,35 @@ Starting from the high-fidelity mockup of the first screen, I prepared a few sce
 
 </section>
 
-
-
-
-
 ## User testing
 I initiated the first user testing sessions within the company in order to obtain feedback before the development of the envisaged solution.
  
 Previously, tests were generally carried out on a release candidate by beta testers only. Testing a prototype with concrete scenarios allows to get feedback earlier in the delivery process, which saves considerable time. Each of the 5 sessions was screen-recorded, which enabled me to come back to it later and make changes accordingly thanks to the relevant comments gathered.
+
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/testing-1.jpg" class="sm-img mt-4" alt="User testing">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/testing-2.jpg" class="sm-img mt-4" alt="User testing">
+
+</div>
+
+</div>
+
+<p class="sm-caption">Preparation for testing sessions</p>
+
+</section>
+
+
+
 
 ## Improving the solution
 Based on the feedback received from user tests, I made some modifications to the mockups before delivering them for development.
