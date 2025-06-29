@@ -93,43 +93,6 @@ Therefore, I studied the option of being able to create custom views. To confirm
 
 </section>
 
-<!-- <section>
-
-<div class="row">
-
-<div class="col-12 col-lg-4">
-
-<img src="/img/caldera-jobs/wireframe-1.jpg" class="sm-img mt-4" alt="Wireframe">
-
-</div>
-
-<div class="col-12 col-lg-4">
-
-<img src="/img/caldera-jobs/information-architecture-1.jpg" class="sm-img mt-4" alt="Information architecture">
-
-</div>
-
-<div class="col-12 col-lg-4">
-
-<img src="/img/caldera-jobs/information-architecture-2.jpg" class="sm-img mt-4" alt="Information architecture">
-
-</div>
-
-</div>
-
-<p class="sm-caption">Wireframes & Information architecture</p>
-
-</section> -->
-
-
-
-
-
-
-
-
-
-
 ## Building a MVP
 In order to integrate into the Scrum framework, I moved on to the design of an MVP which could be the first iteration allowing to deliver the possibility of archiving and restoring jobs, this being the most urgent need because it can resolve issues encountered in the production of our customers.  
 
@@ -163,14 +126,49 @@ This MVP was implemented in parallel with the rest of the visual design work.
 
 </section>
 
-
-
-
-
-
-
 ## Visual design
 We wanted a simple and easy to use interface for this product so I iterated a few times on visual design, taking into account the feedback from my teammates.
+
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/exploration-1.png" class="sm-img mt-4" alt="Design exploration">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/exploration-4.png" class="sm-img mt-4" alt="Design exploration">
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-0 col-lg-3">&nbsp;</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/exploration-3.png" class="sm-img mt-4" alt="Design exploration">
+
+</div>
+
+<div class="col-0 col-lg-3">&nbsp;</div>
+
+</div>
+
+<p class="sm-caption">Design explorations</p>
+
+</section>
+
+
+
+
+
 
 ## Prototype
 Starting from the high-fidelity mockup of the first screen, I prepared a few scenarios that were aligned with the user stories, and created a full prototype accordingly, in order to perform user testing sessions.
