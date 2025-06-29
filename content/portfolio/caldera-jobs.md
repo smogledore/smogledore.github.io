@@ -50,19 +50,47 @@ New features are however eagerly awaited by users: archiving/restoring jobs, sea
 
 </section>
 
-
-
-
-
-
-
-
-
-
 ## Research and ideation
 During the first stages of my work, I focused in particular on two needs that seemed similar to me: job search/filtering and interface customization. The goal in both cases was to have quick access to information, altering the default display.  
 
 Therefore, I studied the option of being able to create custom views. To confirm this, I worked on the information architecture by listing which job parameters could define a view. After that, I found out that the display of nests could be treated in the same way, by assigning temporary filtering parameters to the current view.
+
+
+
+
+
+
+
+
+<section>
+
+<div class="row">
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/information-architecture-1.jpg" class="sm-img mt-4" alt="Information architecture">
+
+</div>
+
+<div class="col-12 col-lg-6">
+
+<img src="/img/caldera-jobs/information-architecture-2.jpg" class="sm-img mt-4" alt="Information architecture">
+
+</div>
+
+</div>
+
+<p class="sm-caption">Information architecture</p>
+
+</section>
+
+
+
+
+
+
+
+
 
 ## Building a MVP
 In order to integrate into the Scrum framework, I moved on to the design of an MVP which could be the first iteration allowing to deliver the possibility of archiving and restoring jobs, this being the most urgent need because it can resolve issues encountered in the production of our customers.  
