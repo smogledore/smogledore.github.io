@@ -175,6 +175,6 @@ Following the release of the MVP, we gathered user feedback and conducted additi
 
 ## Outcome
 
-The new paginated layout resulted in a 0.6-point increase in Customer Effort Score, indicating that users found it significantly easier to manage large meetings. Telemetry on the view switcher showed a 35% decrease in interactions, suggesting the layout now adapts more intuitively to user needs.
+The new paginated layout resulted in a 0.6-point decrease in Customer Effort Score, indicating that users found it significantly easier to manage large meetings. Telemetry on the view switcher showed a 35% decrease in interactions, suggesting the layout now adapts more intuitively to user needs.
 
 </section>
